@@ -1458,6 +1458,8 @@ h1.hero__en {
 .sg-glass    { grid-column: span 2; }
 .sg-bar      { grid-column: span 3; grid-row: span 2; }
 .sg-evening  { grid-column: span 3; grid-row: span 2; }
+.sg-pour     { grid-column: span 3; grid-row: span 2; }
+.sg-kitchen  { grid-column: span 3; grid-row: span 2; }
 .sg-exterior { grid-column: span 6; grid-row: span 2; }
 .sg-exterior img { object-position: center 60%; }
 .boat-feature .story-img { aspect-ratio: 16 / 10; }
@@ -1565,7 +1567,7 @@ h1.hero__en {
   .can-inner { grid-template-columns: 1fr; }
   .can-list { grid-template-columns: 1fr; }
   .space-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 34vw; }
-  .sg-hall, .sg-exterior, .sg-bar, .sg-evening { grid-column: span 2; grid-row: span 1; }
+  .sg-hall, .sg-exterior, .sg-bar, .sg-evening, .sg-pour, .sg-kitchen { grid-column: span 2; grid-row: span 1; }
   .sg-aisle { grid-column: span 1; grid-row: span 2; }
   .sg-table, .sg-glass { grid-column: span 1; grid-row: span 1; }
   .shop-wrap { grid-template-columns: 1fr; }
@@ -1723,7 +1725,7 @@ h1.hero__en {
     <!-- block 1 -->
     <div class="story-grid" style="margin-bottom: var(--gap-lg)">
       <div class="story-img reveal">
-        <img src="img/neon.jpg" width="1012" height="1800" alt="KUNIMARE Brewery のネオンサイン" loading="lazy" decoding="async">
+        <img src="img/pour-close.jpg" width="1500" height="1000" alt="金色のビアサーバーからグラスにクラフトビールを注ぐ手元" loading="lazy" decoding="async">
         <span class="story-img__caption">Craft Beer / Mashike</span>
       </div>
       <div class="story-text reveal delay-1">
@@ -1791,8 +1793,8 @@ h1.hero__en {
         <figcaption>奥まで続く席</figcaption>
       </figure>
       <figure class="sg sg-table">
-        <img src="img/space-table.jpg" alt="テーブルに灯る真鍮のランプと、奥に並ぶ醸造タンク" width="1400" height="788" loading="lazy" decoding="async">
-        <figcaption>灯りのテーブル</figcaption>
+        <img src="img/counter-toast.jpg" alt="カウンターでクラフトビールのグラスを手に取る様子" width="1500" height="1000" loading="lazy" decoding="async">
+        <figcaption>カウンターで一杯</figcaption>
       </figure>
       <figure class="sg sg-glass">
         <img src="img/space-glasses.jpg" alt="ロゴ入りのオリジナルビアグラス2種" width="1200" height="900" loading="lazy" decoding="async">
@@ -1805,6 +1807,14 @@ h1.hero__en {
       <figure class="sg sg-evening">
         <img src="img/space-evening.jpg" alt="夕方の営業中の千石蔵ビアホール。梁の下でくつろぐお客様" width="1400" height="788" loading="lazy" decoding="async">
         <figcaption>営業中のひととき</figcaption>
+      </figure>
+      <figure class="sg sg-pour">
+        <img src="img/pour-taps.jpg" alt="金色のビアサーバーが並ぶカウンターで、つくりたてのビールを注ぐ" width="1500" height="1000" loading="lazy" decoding="async">
+        <figcaption>サーバーから、一杯ずつ</figcaption>
+      </figure>
+      <figure class="sg sg-kitchen">
+        <img src="img/kitchen.jpg" alt="醸造タンクの手前にあるキッチンで料理を仕上げるスタッフ" width="1500" height="1000" loading="lazy" decoding="async">
+        <figcaption>タンクを望むキッチン</figcaption>
       </figure>
       <figure class="sg sg-exterior">
         <img src="img/space-exterior.jpg" alt="青空の下の千石蔵の外観。石積みの壁の蔵" width="1400" height="788" loading="lazy" decoding="async">
@@ -1873,7 +1883,7 @@ h1.hero__en {
         </p>
       </div>
       <div class="beer-intro__img reveal delay-1">
-        <img src="img/cans.jpg" width="1800" height="1013" alt="3種のクラフトビール缶" loading="lazy" decoding="async">
+        <img src="img/pour-glass.jpg" width="1500" height="1000" alt="金色のビアサーバーから、泡立つクラフトビールをグラスに注ぐ" loading="lazy" decoding="async">
       </div>
     </div>
 
@@ -1933,7 +1943,7 @@ h1.hero__en {
      IMAGE BREAK — NEON
      =================================================== -->
 <div class="img-break">
-  <img src="img/neon.jpg" width="1012" height="1800" alt="国稀ブルワリー ネオン" decoding="async" loading="lazy">
+  <img src="img/pour-taps.jpg" width="1500" height="1000" alt="千石蔵ビアホールの金色のビアサーバーが並ぶカウンター" decoding="async" loading="lazy">
   <div class="img-break__overlay">
     <p class="img-break__text reveal">Kunimare Brewery &mdash; Mashike, Hokkaido</p>
   </div>
@@ -1961,7 +1971,7 @@ h1.hero__en {
 
   <div class="food-grid reveal" style="padding: 0 3px;">
     <div class="food-item fi1">
-      <img src="img/fish-and-chips.jpg" width="1400" height="933" alt="特製フィッシュ&チップス" loading="lazy" decoding="async">
+      <img src="img/fish-and-chips-table.jpg" width="1500" height="1000" alt="増毛産たらの特製フィッシュ&チップスと3種のディップ" loading="lazy" decoding="async">
       <div class="food-item__cap">特製フィッシュ&amp;チップス ── 増毛産たら</div>
     </div>
     <div class="food-item fi2">
@@ -1969,7 +1979,7 @@ h1.hero__en {
       <div class="food-item__cap">たっぷりたらこのパスタ</div>
     </div>
     <div class="food-item fi3">
-      <img src="img/taramo-salad.jpg" width="1400" height="933" alt="タラモサラダ" loading="lazy" decoding="async">
+      <img src="img/taramo-table.jpg" width="1500" height="1000" alt="増毛町のたらこを使ったタラモサラダ" loading="lazy" decoding="async">
       <div class="food-item__cap">タラモサラダ</div>
     </div>
   </div>
@@ -2044,7 +2054,7 @@ h1.hero__en {
       </p>
     </div>
     <div class="cafe-img">
-      <img src="img/brewery-1885.jpg" width="1400" height="1050" alt="千石蔵 内観" loading="lazy" decoding="async">
+      <img src="img/space-table.jpg" width="1400" height="788" alt="真鍮のランプが灯る千石蔵ビアホールのテーブル席" loading="lazy" decoding="async">
     </div>
   </div>
 </section>
@@ -2327,6 +2337,7 @@ h1.hero__en {
     ['beers.jpg',          '3種のクラフトビール', ''],
     ['hall-1.jpg',         'ビアホール', 'BEER HALL'],
     ['fish-and-chips.jpg', '特製フィッシュ&チップス', '¥1,400'],
+    ['pour.jpg',           'つくりたてを、その場で', 'ON TAP'],
     ['dortmunder.jpg',     'ドルトムンダー', '6%'],
     ['neon.jpg',           '国稀ブルワリー', 'BREWERY'],
     ['tarako-pasta.jpg',   'たっぷりたらこのパスタ', '¥1,300'],
@@ -2334,10 +2345,12 @@ h1.hero__en {
     ['hall-2.jpg',         '梁の下で乾杯', ''],
     ['taramo-salad.jpg',   'タラモサラダ', '¥900'],
     ['cream-ale.jpg',      'クリームエール', '4.5%'],
+    ['taps.jpg',           'サーバーから一杯ずつ', ''],
     ['onion-rings.jpg',    'オニオンリング', '¥900'],
     ['cans.jpg',           '缶ビール3種', 'ここだけ'],
     ['croquettes.jpg',     'ライスコロッケ5種盛り', '¥950'],
     ['hall-3.jpg',         'カウンター', 'BAR'],
+    ['counter.jpg',        'カウンターで乾杯', ''],
     ['edamame.jpg',        'ピリ辛ガリペパ枝豆', '¥450'],
     ['nuts.jpg',           'ベスト・ビア・ミックスナッツ', '¥500'],
   ];
