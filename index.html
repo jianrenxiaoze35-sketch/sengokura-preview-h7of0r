@@ -1311,6 +1311,8 @@ h1.hero__en {
 }
 .agegate__logo {
   height: 48px;
+  max-width: calc(100vw - 48px);   /* 横長ロゴが細い画面ではみ出さないように */
+  object-fit: contain;
   filter: brightness(0) invert(1);
   opacity: 0.65;
   margin-bottom: 40px;
