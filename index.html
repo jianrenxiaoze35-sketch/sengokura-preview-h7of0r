@@ -1,0 +1,2730 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO：検索で拾われたい言葉（増毛・クラフトビール・ビアホール・国稀酒造・千石蔵・醸造所）を title と description の頭に寄せる -->
+  <title>千石蔵ビアホール｜増毛町のクラフトビール醸造所・国稀酒造直営</title>
+  <meta name="description" content="北海道増毛町、国稀酒造直営のクラフトビアホール。築100年を超えるニシン漁の石蔵で、暑寒別岳の伏流水から醸したドルトムンダー・アメリカンIPA・クリームエールと、増毛産たらのフィッシュ＆チップスを。営業時間・駐車場・アクセスはこちら。">
+  <link rel="canonical" href="https://kunimare-craftbeer.com/">
+  <!-- 確認用の限定公開版：検索エンジンに載せない（本番では index, follow に戻す） -->
+  <meta name="robots" content="noindex, nofollow, noimageindex">
+  <meta name="theme-color" content="#16120e">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="千石蔵ビアホール">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:url" content="https://kunimare-craftbeer.com/">
+  <meta property="og:title" content="千石蔵ビアホール｜増毛町のクラフトビール醸造所・国稀酒造直営">
+  <meta property="og:description" content="ニシン漁の石蔵が、醸造所併設のビアホールに。暑寒別岳の伏流水で醸す3種のクラフトビールと、増毛産の食材で。">
+  <meta property="og:image" content="https://kunimare-craftbeer.com/img/hero-beer.jpg">
+  <meta property="og:image:width" content="2400">
+  <meta property="og:image:height" content="1351">
+  <meta property="og:image:alt" content="千石蔵ビアホールの店内と、国稀クラフトビールの缶3種">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="48x48" href="img/favicon-48.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="img/icon-512.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+  <!-- 最初に見える写真を先に読む（スマホ縦はネオン、それ以外は店内） -->
+  <link rel="preload" as="image" href="img/neon.jpg" media="(max-width: 860px) and (orientation: portrait)">
+  <link rel="preload" as="image" href="img/hero-beer.jpg" media="not all and (max-width: 860px) and (orientation: portrait)">
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- 構造化データ：店舗（ビアホール＋醸造所）・運営会社・メニュー・よくある質問。
+       営業時間・価格・住所を変えたら、ここも本文と同じに直すこと -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://kunimare-craftbeer.com/#kunimare",
+        "name": "国稀酒造株式会社",
+        "url": "https://www.kunimare.co.jp/",
+        "foundingDate": "1882",
+        "telephone": "+81-164-53-1050"
+      },
+      {
+        "@type": ["BarOrPub", "Brewery"],
+        "@id": "https://kunimare-craftbeer.com/#beerhall",
+        "name": "千石蔵ビアホール",
+        "alternateName": ["Sengokura Beer Hall", "国稀ブルワリー", "KUNIMARE Brewery"],
+        "description": "北海道増毛町、国稀酒造直営のクラフトビール醸造所併設ビアホール。ニシン漁の漁具を保管していた築100年以上の石蔵「千石蔵」を改修し、2026年5月に開業。",
+        "url": "https://kunimare-craftbeer.com/",
+        "image": [
+          "https://kunimare-craftbeer.com/img/hero-beer.jpg",
+          "https://kunimare-craftbeer.com/img/space-hall.jpg",
+          "https://kunimare-craftbeer.com/img/space-exterior.jpg"
+        ],
+        "logo": "https://kunimare-craftbeer.com/img/icon-512.png",
+        "telephone": "+81-164-53-1050",
+        "address": {
+          "@type": "PostalAddress",
+          "postalCode": "077-0203",
+          "addressRegion": "北海道",
+          "addressLocality": "増毛郡増毛町",
+          "streetAddress": "稲葉海岸町53番地",
+          "addressCountry": "JP"
+        },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Thursday", "Friday", "Saturday"], "opens": "11:00", "closes": "21:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday", "Monday"], "opens": "11:00", "closes": "17:00" }
+        ],
+        "servesCuisine": ["クラフトビール", "ビアホール", "フィッシュ＆チップス"],
+        "priceRange": "¥400〜¥1,400",
+        "currenciesAccepted": "JPY",
+        "paymentAccepted": "現金, 各種キャッシュレス決済",
+        "acceptsReservations": true,
+        "parentOrganization": { "@id": "https://kunimare-craftbeer.com/#kunimare" },
+        "sameAs": ["https://www.instagram.com/sengokura_bierhall/"],
+        "hasMenu": {
+          "@type": "Menu",
+          "name": "千石蔵ビアホール グランドメニュー（2026年5月版）",
+          "hasMenuSection": [
+            {
+              "@type": "MenuSection",
+              "name": "クラフトビール",
+              "hasMenuItem": [
+                { "@type": "MenuItem", "name": "ドルトムンダー", "description": "王道のプレミアムラガー（Alc.6%）", "offers": { "@type": "Offer", "price": "800", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "アメリカンIPA", "description": "7種のホップが香るIPA（Alc.6%）", "offers": { "@type": "Offer", "price": "800", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "クリームエール", "description": "暑寒別岳の軟水で醸す、なめらかなエール（Alc.4.5%）", "offers": { "@type": "Offer", "price": "800", "priceCurrency": "JPY" } }
+              ]
+            },
+            {
+              "@type": "MenuSection",
+              "name": "フード",
+              "hasMenuItem": [
+                { "@type": "MenuItem", "name": "特製フィッシュ＆チップス", "description": "増毛産のたらを使用。数の子タルタル・たらこマヨ・ケチャップの3種ディップ", "offers": { "@type": "Offer", "price": "1400", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "たっぷりたらこのパスタ", "description": "増毛町で製造されたたらこを使用", "offers": { "@type": "Offer", "price": "1300", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "タラモサラダ", "description": "増毛町で製造されたたらことポテトサラダ", "offers": { "@type": "Offer", "price": "900", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "ライスコロッケ5種盛り", "offers": { "@type": "Offer", "price": "950", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "オニオンリング", "offers": { "@type": "Offer", "price": "900", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "ベスト・ビア・ミックスナッツ", "offers": { "@type": "Offer", "price": "500", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "ピリ辛ガリペパ枝豆", "offers": { "@type": "Offer", "price": "450", "priceCurrency": "JPY" } },
+                { "@type": "MenuItem", "name": "北海道バニラソフト", "offers": { "@type": "Offer", "price": "600", "priceCurrency": "JPY" } }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://kunimare-craftbeer.com/#website",
+        "url": "https://kunimare-craftbeer.com/",
+        "name": "千石蔵ビアホール",
+        "inLanguage": "ja",
+        "publisher": { "@id": "https://kunimare-craftbeer.com/#kunimare" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://kunimare-craftbeer.com/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "営業時間と定休日を教えてください。", "acceptedAnswer": { "@type": "Answer", "text": "木・金・土曜日は11:00〜21:00（ラストオーダー20:30）、日・月曜日は11:00〜17:00（ラストオーダー16:30）です。火曜日・水曜日は定休日です。" } },
+          { "@type": "Question", "name": "駐車場はありますか？", "acceptedAnswer": { "@type": "Answer", "text": "店舗前の道路を挟んだ向かいに約20台分あります。満車のときは、国稀ショップ周辺や旧増毛駅前の駐車場をご利用ください。" } },
+          { "@type": "Question", "name": "予約はできますか？", "acceptedAnswer": { "@type": "Answer", "text": "団体・ご宴会のご予約は、国稀酒造（0164-53-1050）で承ります。店舗には固定電話がありません。" } },
+          { "@type": "Question", "name": "支払い方法は何が使えますか？", "acceptedAnswer": { "@type": "Answer", "text": "各種キャッシュレス決済をご利用いただけます。缶ビールなどのお土産は現金のみのお取り扱いです。" } },
+          { "@type": "Question", "name": "お酒を飲まない人や運転する人も楽しめますか？", "acceptedAnswer": { "@type": "Answer", "text": "ソフトクリーム（バニラ・ショコラ・ミックス）やコーヒー、烏龍茶・コーラ・ジンジャーエールなどのソフトドリンクをご用意しています。お車を運転される方への酒類の提供はいたしません。" } },
+          { "@type": "Question", "name": "缶ビールはどこで買えますか？", "acceptedAnswer": { "@type": "Answer", "text": "現在、千石蔵ビアホールの店頭でのみ販売しています。" } },
+          { "@type": "Question", "name": "店内のニシン船は見学できますか？", "acceptedAnswer": { "@type": "Answer", "text": "はい。蔵の中に、網を揚げてニシンを陸へ上げた木造の枠船（わくぶね）を展示しています。見学用の階段から、船の中や化粧板を間近にご覧いただけます。" } }
+        ]
+      }
+    ]
+  }
+  </script>
+  <!-- フォント戦略（小諸蒸留所準拠）
+       JP: システムフォント Hiragino Mincho ProN / Yu Mincho（Noto は使わない）
+       EN display: EB Garamond（AGaramond Pro / Trajan Pro の代替）
+       EN label: Josefin Sans（Sackers Gothic の代替）
+       数字/日付: システム Yu Gothic
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Josefin+Sans:wght@200;300&display=swap" rel="stylesheet">
+
+  <style>
+/* =============================================
+   RESET & BASE
+   ============================================= */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 14px; }  /* 小諸: 12-14px体制 */
+body {
+  /* 日本語はシステム明朝。Noto は使わない（小諸蒸留所準拠）*/
+  font-family: 'Hiragino Mincho ProN', 'Yu Mincho', '游明朝', 'MS Mincho', 'ＭＳ 明朝', serif;
+  background: #f5eedc;
+  color: #16120e;
+  line-height: 1.85;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: inherit; text-decoration: none; }
+button { border: none; background: none; cursor: pointer; font: inherit; }
+
+/* =============================================
+   DESIGN TOKENS
+   ============================================= */
+:root {
+  /* colours — luxury brand palette (Komoro/Macallan 準拠) */
+  --cream:        #f5eedc;
+  --cream-dark:   #ede4cc;
+  --ink:          #231f20;   /* Komoroの near-black #231f20 */
+  --ink-mid:      #3a3228;
+  --ink-light:    #7a6e60;
+  --indigo:       #1e3a7a;
+  --indigo-dark:  #142a5e;
+  --gold:         #d4a843;   /* Komoroの #d7a700 より少し落ち着いた */
+  --gold-light:   #e8c668;
+  --gold-dark:    #a07820;
+  --white:        #ffffff;
+  --panel-dark:   #16120e;   /* ビール・フッターなど最深色 */
+
+  /* type — 小諸蒸留所準拠: JP=システム明朝、EN display=EB Garamond、EN label=Josefin Sans */
+  --f-serif:   'Hiragino Mincho ProN', 'Yu Mincho', '游明朝', 'MS Mincho', serif;
+  --f-display: 'EB Garamond', 'Hiragino Mincho ProN', Georgia, serif;
+  --f-label:   'Josefin Sans', 'Gill Sans', 'Optima', sans-serif;
+  --f-sans:    '游ゴシック体', 'Yu Gothic', 'Hiragino Kaku Gothic ProN', sans-serif;
+
+  /* spacing */
+  --gap-sm:  clamp(24px, 4vw, 48px);
+  --gap-md:  clamp(60px, 8vw, 120px);
+  --gap-lg:  clamp(100px, 14vw, 180px);
+  --inner:   1100px;
+  --pad-x:   clamp(20px, 6vw, 80px);
+}
+
+/* =============================================
+   UTILITIES
+   ============================================= */
+.inner {
+  max-width: var(--inner);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+}
+.en {
+  font-family: var(--f-label);
+  font-weight: 200;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* =============================================
+   SCROLL REVEAL
+   ============================================= */
+/* JS が動かない環境では最初から見せる */
+.js .reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.9s cubic-bezier(0.22,1,0.36,1),
+              transform 0.9s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal.delay-1 { transition-delay: 0.12s; }
+.reveal.delay-2 { transition-delay: 0.24s; }
+.reveal.delay-3 { transition-delay: 0.38s; }
+.reveal.delay-4 { transition-delay: 0.55s; }
+.js .reveal.visible { opacity: 1; transform: none; }
+
+.reveal-line {
+  overflow: hidden;
+}
+.js .reveal-line > span {
+  display: block;
+  transform: translateY(110%);
+  transition: transform 1s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal-line.visible > span { transform: translateY(0); }
+
+/* =============================================
+   OPENING ANIMATION
+   ============================================= */
+#opening {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--cream);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  /* 最初から不透明にして、読み込み直後にページが一瞬見えるのを防ぐ */
+}
+/* 退場：暖簾をくぐるように上へ抜け、下端に金の線を残す */
+#opening::after {
+  content: '';
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-light), var(--gold), var(--gold-light), transparent);
+  box-shadow: 0 0 24px rgba(232,198,104,.8);
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+#opening.done {
+  transform: translateY(-100%);
+  transition: transform 0.95s cubic-bezier(0.76,0,0.24,1);
+  pointer-events: none;
+}
+#opening.done::after { opacity: 1; }
+.op-skip {
+  position: absolute;
+  right: 20px; bottom: 18px;
+  z-index: 11;
+  font-family: var(--f-label);
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: rgba(30,58,122,.45);
+  pointer-events: none;
+}
+
+#sg-canvas, #op-fx {
+  position: absolute;
+  inset: 0;
+  width: 100%; height: 100%;
+}
+#op-fx { z-index: 9; pointer-events: none; }   /* 金の輪と泡は写真や帯より手前 */
+
+/* 写真カード */
+.op-collage { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.op-tile {
+  position: absolute;
+  margin: 0;
+  padding: 5px 5px 24px;
+  background: #fbf7ec;
+  box-shadow: 0 14px 34px rgba(22,18,14,.3), 0 2px 6px rgba(22,18,14,.18);
+  opacity: 0;
+  transform: translate(-50%,-50%) scale(1.7) rotate(calc(var(--r) * 3));
+  transition: opacity .3s ease, transform .55s cubic-bezier(0.2,1.35,0.4,1), filter .7s ease;
+}
+.op-tile.in { opacity: 1; transform: translate(-50%,-50%) scale(1) rotate(var(--r)); }
+/* 彩り の出番では写真を少しぼかして沈める（透かすと青海波が写真に透けて濁る） */
+#opening.settle .op-tile.in { filter: saturate(.75) brightness(.9) blur(1.5px); }
+.op-tile img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.op-tile figcaption {
+  position: absolute;
+  left: 8px; right: 8px; bottom: 5px;
+  font-family: var(--f-serif);
+  font-size: clamp(9px, 1vw, 12px);
+  letter-spacing: .06em;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.op-tile figcaption b { font-family: var(--f-sans); font-weight: 400; color: var(--gold-dark); margin-left: 6px; }
+
+/* 言葉を畳みかける帯 */
+.op-band {
+  position: absolute;
+  left: 0; right: 0; top: 50%;
+  height: clamp(210px, 38vh, 340px);
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245,238,220,.95);
+  border-top: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
+  box-shadow: 0 0 70px rgba(22,18,14,.28);
+  transform: translateY(-50%) scaleY(0);
+  transition: transform .45s cubic-bezier(0.7,0,0.2,1);
+  pointer-events: none;
+}
+.op-band.on { transform: translateY(-50%) scaleY(1); }
+#op-flash {
+  font-family: var(--f-serif);
+  font-weight: 700;
+  font-size: clamp(40px, 8.5vw, 116px);
+  letter-spacing: .08em;
+  color: var(--indigo);
+  white-space: nowrap;
+}
+#op-flash.en { font-family: var(--f-display); font-style: italic; font-weight: 500; letter-spacing: .04em; }
+#op-flash.gold { color: var(--gold-dark); }
+
+/* splashes */
+.sp {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0);
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+@keyframes sp-burst {
+  0%   { opacity:0; transform:scale(0) rotate(-15deg); }
+  55%  { opacity:1; transform:scale(1.08) rotate(5deg); }
+  100% { opacity:0.78; transform:scale(1) rotate(0deg); }
+}
+.sp1 {
+  width:clamp(220px,32vw,420px); height:clamp(180px,24vw,320px);
+  top:-6%; left:-8%;
+  border-radius:45% 55% 60% 40% / 55% 45% 60% 40%;
+  background:radial-gradient(ellipse at 40% 55%, rgba(200,151,42,.65) 0%, rgba(200,151,42,0) 72%);
+}
+.sp2 {
+  width:clamp(180px,26vw,360px); height:clamp(240px,32vw,440px);
+  bottom:-8%; right:-6%;
+  border-radius:60% 40% 42% 58% / 42% 60% 40% 60%;
+  background:radial-gradient(ellipse at 52% 45%, rgba(224,95,48,.62) 0%, rgba(224,95,48,0) 72%);
+}
+.sp3 {
+  width:clamp(260px,34vw,460px); height:clamp(160px,22vw,280px);
+  bottom:12%; left:-4%;
+  border-radius:50% 70% 32% 62% / 68% 32% 62% 38%;
+  background:radial-gradient(ellipse at 44% 52%, rgba(72,140,88,.55) 0%, rgba(72,140,88,0) 72%);
+}
+.sp4 {
+  width:clamp(160px,22vw,300px); height:clamp(200px,28vw,380px);
+  top:6%; right:4%;
+  border-radius:68% 32% 56% 44% / 32% 68% 44% 56%;
+  background:radial-gradient(ellipse at 50% 50%, rgba(108,68,160,.50) 0%, rgba(108,68,160,0) 72%);
+}
+.sp5 {
+  width:clamp(200px,28vw,360px); height:clamp(160px,20vw,260px);
+  top:36%; left:4%;
+  border-radius:32% 68% 68% 32% / 68% 32% 32% 68%;
+  background:radial-gradient(ellipse at 50% 50%, rgba(196,52,84,.50) 0%, rgba(196,52,84,0) 72%);
+}
+.sp6 {
+  width:clamp(300px,42vw,560px); height:clamp(300px,42vw,560px);
+  top:-18%; right:12%;
+  border-radius:60% 40% 50% 50% / 40% 60% 50% 50%;
+  background:radial-gradient(ellipse at 46% 46%, rgba(30,58,122,.18) 0%, rgba(30,58,122,0) 65%);
+}
+
+/* opening text */
+#op-text {
+  position:relative; z-index:10;
+  text-align:center;
+  pointer-events:none;
+  opacity:0; transition:opacity 0.4s ease;
+}
+#op-text.show { opacity:1; }
+/* 文字の後ろに生成りの光をしいて、青海波や泡の上でも読めるようにする */
+#op-text::before {
+  content: '';
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 150%; height: 190%;
+  transform: translate(-50%,-50%) scale(.6);
+  background: radial-gradient(ellipse at center, rgba(245,238,220,.97) 0%, rgba(245,238,220,.9) 38%, rgba(245,238,220,0) 70%);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .6s ease, transform 1s cubic-bezier(0.22,1,0.36,1);
+}
+#op-text.show::before { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+
+.op-tag {
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: clamp(11px,1.4vw,15px);
+  letter-spacing: 0.4em;
+  color: rgba(30,58,122,.6);
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 1s cubic-bezier(0.22,1,0.36,1);
+}
+.op-main {
+  font-size: clamp(64px,13vw,150px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1.1;
+  color: var(--indigo);
+  filter: drop-shadow(0 10px 30px rgba(30,58,122,.18));
+}
+/* 1文字ずつ跳ねて入り、金の光が走る */
+.op-char {
+  display: inline-block;
+  color: transparent;
+  background: linear-gradient(105deg,
+    var(--indigo) 0%, var(--indigo) 42%,
+    #fff6d6 48%, var(--gold-light) 50%, var(--gold) 53%,
+    var(--indigo) 60%, var(--indigo) 100%);
+  background-size: 300% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  opacity: 0;
+  transform: translateY(70%) scale(.5) rotate(-10deg);
+  transition: opacity .5s ease, transform .9s cubic-bezier(0.34,1.56,0.64,1);
+}
+.op-char:nth-child(2) { transition-delay: .14s; transform: translateY(70%) scale(.5) rotate(10deg); }
+#op-text.show .op-char { opacity: 1; transform: none; animation: op-shine 1.3s cubic-bezier(0.4,0,0.2,1) .75s forwards; }
+#op-text.show .op-char:nth-child(2) { animation-delay: .9s; }
+@keyframes op-shine { to { background-position: 0% 0; } }
+.op-sub {
+  font-size: clamp(12px,1.6vw,16px);
+  letter-spacing: 0.3em;
+  color: rgba(30,58,122,.55);
+  margin-top: 22px;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 0.9s cubic-bezier(0.22,1,0.36,1) 0.8s;
+}
+.op-rule {
+  width: 0; height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(30,58,122,.4), transparent);
+  margin: 20px auto 0;
+  transition: width 1s ease 1s;
+}
+#op-text.show .op-tag  { clip-path: inset(0 0% 0 0); }
+#op-text.show .op-sub  { clip-path: inset(0 0% 0 0); }
+#op-text.show .op-rule { width: clamp(80px,18vw,220px); }
+.op-rule { height: 2px; background: linear-gradient(90deg, transparent, var(--gold), transparent); }
+
+/* =============================================
+   HEADER
+   ============================================= */
+.site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px var(--pad-x);
+  transition: background 0.4s ease, padding 0.4s ease, box-shadow 0.4s ease;
+}
+.site-header.scrolled {
+  background: rgba(245,238,220,.96);
+  backdrop-filter: blur(8px);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 1px 0 rgba(22,18,14,.08);
+}
+.site-header__logo img {
+  height: 44px; width: auto;
+  transition: height 0.3s ease;
+}
+.site-header.scrolled .site-header__logo img,
+.site-header.menu-open .site-header__logo img { height: 36px; filter: brightness(0); }
+.site-header__logo-fallback {
+  font-family: var(--f-serif);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--ink);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-size: 11px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-family: var(--f-label);
+  font-weight: 200;
+}
+.site-nav a {
+  color: var(--white);
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  position: relative;
+}
+.site-header.scrolled .site-nav a { color: var(--ink); }
+.site-nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -3px; left: 0; right: 100%;
+  height: 1px;
+  background: var(--gold);
+  transition: right 0.4s cubic-bezier(0.22,1,0.36,1);
+}
+.site-nav a:hover { opacity: 1; }
+.site-nav a:hover::after { right: 0; }
+.site-header.scrolled .site-nav a::after { background: var(--gold); }
+
+.lang-switch {
+  display: flex; gap: 2px;
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 10px; letter-spacing: 0.18em;
+  margin-left: 8px;
+}
+.lang-switch span {
+  padding: 4px 8px;
+  border: 1px solid currentColor;
+  cursor: pointer;
+  color: var(--white);
+  opacity: 0.6;
+  transition: opacity 0.2s, background 0.2s, color 0.2s;
+}
+.site-header.scrolled .lang-switch span { color: var(--ink); }
+.lang-switch span.active { opacity: 1; background: currentColor; }
+.lang-switch span.active { color: var(--white) !important; }
+.site-header.scrolled .lang-switch span.active { background: var(--ink); color: var(--white) !important; }
+
+/* hamburger */
+.hamburger { display: none; flex-direction: column; gap: 6px; padding: 10px; margin-right: -10px; cursor: pointer; }
+.hamburger span { display: block; width: 24px; height: 1px; background: var(--white); transition: transform .3s, opacity .3s; }
+.site-header.scrolled .hamburger span,
+.site-header.menu-open .hamburger span { background: var(--ink); }
+.site-header.menu-open .hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.site-header.menu-open .hamburger span:nth-child(2) { opacity: 0; }
+.site-header.menu-open .hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.site-header.menu-open { background: rgba(245,238,220,.98); }
+
+/* 固定ヘッダーの下に見出しが隠れないように */
+[id] { scroll-margin-top: 72px; }
+
+/* =============================================
+   HERO
+   ============================================= */
+.hero {
+  position: relative;
+  height: 100svh;
+  min-height: 560px;
+  overflow: hidden;
+}
+.hero__img-wrap {
+  position: absolute;
+  inset: 0;
+  will-change: transform;
+}
+.hero__img {
+  width: 100%; height: 115%;
+  object-fit: cover;
+  object-position: center 55%;
+}
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background:
+    /* 見出しが缶の柄に重なるので、左側だけ暗くして読ませる */
+    linear-gradient(90deg, rgba(22,18,14,.62) 0%, rgba(22,18,14,.35) 38%, rgba(22,18,14,0) 62%),
+    linear-gradient(
+    to bottom,
+    rgba(22,18,14,.15) 0%,
+    rgba(22,18,14,.20) 40%,
+    rgba(22,18,14,.72) 100%
+  );
+}
+.hero__content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 var(--pad-x) clamp(60px,10vh,100px);
+  color: var(--white);
+}
+.hero__en {
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: clamp(9px,1.0vw,12px);
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  opacity: .55;
+  margin-bottom: 20px;
+}
+/* h1（店名・所在地）。英字ラベルの体裁のままだと日本語が間延びするので詰める */
+h1.hero__en {
+  font-family: var(--f-serif);
+  font-weight: 400;
+  font-size: clamp(11px, 1.3vw, 15px);
+  letter-spacing: 0.18em;
+  text-transform: none;
+  opacity: .85;
+}
+.hero__gold-rule {
+  width: 48px; height: 1px;
+  background: var(--gold);
+  margin-bottom: 22px;
+  opacity: 0.9;
+}
+.hero__jp {
+  font-family: var(--f-display);
+  font-size: clamp(38px,7vw,88px);
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-shadow: 0 4px 32px rgba(22,18,14,.4);
+  margin-bottom: 40px;
+}
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.75);
+  transition: color 0.2s, gap 0.3s;
+}
+.hero__cta::after {
+  content: '';
+  display: block;
+  width: 40px; height: 1px;
+  background: var(--gold);
+  transition: width 0.4s ease;
+}
+.hero__cta:hover { color: var(--white); gap: 20px; }
+.hero__cta:hover::after { width: 64px; }
+
+/* scroll indicator */
+.hero__scroll {
+  position: absolute;
+  right: var(--pad-x);
+  bottom: clamp(40px,6vh,70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: rgba(255,255,255,.5);
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+}
+.hero__scroll::after {
+  content: '';
+  display: block;
+  width: 1px; height: 48px;
+  background: rgba(255,255,255,.35);
+  animation: scroll-line 1.8s ease-in-out infinite;
+}
+@keyframes scroll-line {
+  0%,100% { transform: scaleY(0); transform-origin: top; opacity:0; }
+  25%      { transform: scaleY(1); transform-origin: top; opacity:1; }
+  75%      { transform: scaleY(1); transform-origin: bottom; opacity:1; }
+  99%      { transform: scaleY(0); transform-origin: bottom; opacity:0; }
+}
+
+/* =============================================
+   SECTION COMMON
+   ============================================= */
+.section { padding: var(--gap-lg) 0; }
+.section--cream { background: var(--cream); }
+.section--light { background: var(--cream-dark); }
+.section--ink   { background: var(--ink); color: var(--cream); }
+.section--dark  { background: var(--panel-dark); color: var(--cream); }
+.section--white { background: var(--white); }
+
+/* ── マーキーテープ (luxury ticker) ── */
+.marquee-strip {
+  overflow: hidden;
+  background: var(--panel-dark);
+  border-top: 1px solid rgba(212,168,67,.15);
+  border-bottom: 1px solid rgba(212,168,67,.15);
+  padding: 14px 0;
+}
+.marquee-strip__track {
+  display: flex;
+  gap: 0;
+  width: max-content;
+  animation: marquee-move 28s linear infinite;
+}
+.marquee-strip__item {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  padding: 0 32px;
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  color: rgba(212,168,67,.55);
+  white-space: nowrap;
+}
+.marquee-strip__item::after {
+  content: '✦';
+  color: rgba(212,168,67,.3);
+  font-size: 8px;
+  letter-spacing: 0;
+}
+@keyframes marquee-move {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.sec-label {
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 10px;
+  letter-spacing: 0.45em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.sec-label::before {
+  content: '';
+  display: block;
+  width: 32px; height: 1px;
+  background: var(--gold);
+}
+.sec-title {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-size: clamp(30px,4.5vw,58px);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  margin-bottom: var(--gap-sm);
+}
+.sec-title strong {
+  font-style: normal;
+  font-weight: 700;
+  font-family: var(--f-serif);
+}
+.sec-body {
+  font-size: clamp(14px,1.5vw,16px);
+  line-height: 2.1;
+  color: var(--ink-light);
+  max-width: 560px;
+}
+.section--ink .sec-body  { color: rgba(245,238,220,.65); }
+.section--dark .sec-title { color: var(--cream); }
+.section--dark .sec-body  { color: rgba(245,238,220,.55); }
+.section--dark .sec-label { color: var(--gold); }
+.section--dark .sec-label::before { background: var(--gold); }
+
+/* =============================================
+   PHILOSOPHY (intro strip)
+   ============================================= */
+.philosophy {
+  padding: clamp(80px,14vw,160px) 0;
+  background: var(--panel-dark);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.philosophy::before {
+  content: '\201C';
+  position: absolute;
+  top: -0.15em; left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--f-display);
+  font-size: clamp(180px,28vw,340px);
+  font-style: italic;
+  color: rgba(212,168,67,.06);
+  pointer-events: none;
+  line-height: 1;
+}
+.philosophy__quote {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-size: clamp(20px,3.2vw,42px);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  color: var(--cream);
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+}
+.philosophy__quote em {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--gold);
+}
+.philosophy__rule {
+  width: 1px; height: 48px;
+  background: var(--gold);
+  opacity: 0.5;
+  margin: 32px auto 28px;
+}
+.philosophy__en {
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: clamp(9px,1.1vw,12px);
+  letter-spacing: 0.5em;
+  color: rgba(245,238,220,.28);
+  text-transform: uppercase;
+}
+
+/* =============================================
+   STORY (2col)
+   ============================================= */
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px,6vw,80px);
+  align-items: center;
+}
+.story-grid.flip { direction: rtl; }
+.story-grid.flip > * { direction: ltr; }
+.story-img {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/5;
+}
+.story-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s cubic-bezier(0.22,1,0.36,1);
+}
+.story-img:hover img { transform: scale(1.03); }
+.story-img__caption {
+  position: absolute;
+  bottom: 16px; right: 16px;
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,.6);
+}
+.story-text { padding: 0 clamp(0px,2vw,32px); }
+
+/* =============================================
+   BEER SECTION
+   ============================================= */
+.beer-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px,6vw,80px);
+  align-items: end;
+  margin-bottom: clamp(48px,7vw,80px);
+}
+.beer-intro__img {
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+.beer-intro__img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+
+.beers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(24px,4vw,48px);
+}
+/* ── ビールカード: Macallan スタイル dark luxury ── */
+.beer-card {
+  position: relative;
+  padding: 36px 28px 48px;
+  background: var(--panel-dark);
+  border: 1px solid rgba(212,168,67,.12);
+  transition: border-color 0.4s ease, transform 0.4s ease;
+  color: var(--cream);
+  overflow: hidden;
+}
+.beer-card::before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  transform: scaleX(0);
+  transition: transform 0.5s cubic-bezier(0.22,1,0.36,1);
+}
+.beer-card:hover {
+  border-color: rgba(212,168,67,.35);
+  transform: translateY(-6px);
+}
+.beer-card:hover::before { transform: scaleX(1); }
+.beer-card__number {
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  opacity: 0.8;
+  margin-bottom: 28px;
+}
+.beer-card__label {
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.beer-card__label img {
+  max-height: 210px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.6s cubic-bezier(0.22,1,0.36,1);
+  filter: drop-shadow(0 8px 24px rgba(0,0,0,.5));
+}
+.beer-card:hover .beer-card__label img { transform: scale(1.07); }
+.beer-card__rule {
+  width: 32px; height: 1px;
+  background: var(--gold);
+  opacity: 0.6;
+  margin-bottom: 18px;
+}
+.beer-card__style {
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: 9px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: rgba(212,168,67,.7);
+  margin-bottom: 10px;
+}
+.beer-card__name {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-size: clamp(18px,2vw,26px);
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin-bottom: 18px;
+  color: var(--cream);
+}
+.beer-card__desc {
+  font-size: 13px;
+  line-height: 2.1;
+  color: rgba(245,238,220,.52);
+}
+.beer-card__abv {
+  position: absolute;
+  top: 32px; right: 24px;
+  font-family: var(--f-sans);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: rgba(212,168,67,.7);
+}
+.beer-card__price {
+  margin-top: 20px;
+  font-family: var(--f-sans);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: var(--gold-light);
+}
+.beer-card__price small { font-size: 10px; color: rgba(245,238,220,.4); margin-left: 6px; }
+
+/* =============================================
+   FULL-BLEED IMAGE BREAK
+   ============================================= */
+.img-break {
+  height: clamp(280px,42vw,580px);
+  overflow: hidden;
+  position: relative;
+}
+.img-break img {
+  width: 100%; height: 120%;
+  object-fit: cover;
+  object-position: center 30%;
+  margin-top: -10%;
+}
+.img-break__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(22,18,14,.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-break__text {
+  color: var(--cream);
+  font-size: clamp(13px,2vw,20px);
+  letter-spacing: 0.3em;
+  font-family: var(--f-label);
+  font-weight: 100;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* =============================================
+   FOOD SECTION
+   ============================================= */
+.food-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 24px;
+  margin-bottom: clamp(40px,5vw,60px);
+}
+.food-header .sec-body { max-width: 480px; }
+
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: clamp(240px,30vw,440px);
+  gap: 3px;
+}
+.food-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.food-item img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.22,1,0.36,1);
+}
+.food-item:hover img { transform: scale(1.06); }
+.food-item__cap {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 24px 16px 14px;
+  background: linear-gradient(transparent, rgba(22,18,14,.7));
+  color: var(--cream);
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  transform: translateY(6px);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.food-item:hover .food-item__cap { opacity: 1; transform: none; }
+/* タッチ端末にはホバーが無いので、料理名を常に出す */
+@media (hover: none) {
+  .food-item__cap { opacity: 1; transform: none; }
+}
+
+/* grid layout */
+.fi1 { grid-column: 1 / 6; }
+.fi2 { grid-column: 6 / 10; }
+.fi3 { grid-column: 10 / 13; }
+
+/* ── メニュー一覧（5/10版グランドメニュー準拠）── */
+.food-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(32px,4vw,56px);
+  margin-top: clamp(48px,6vw,80px);
+}
+.food-menu__cat {
+  font-family: var(--f-label);
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  padding-bottom: 12px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(22,18,14,.18);
+}
+.food-menu ul { list-style: none; }
+.food-menu li { padding: 14px 0; border-bottom: 1px solid rgba(22,18,14,.07); }
+.food-menu__row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+}
+.food-menu__name { flex: 1; }
+.food-menu__price { font-family: var(--f-sans); font-size: 14px; color: var(--ink-mid); white-space: nowrap; }
+.food-menu__local {
+  display: inline-block;
+  font-family: var(--f-sans);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--white);
+  background: var(--gold-dark);
+  padding: 1px 7px;
+  margin-left: 6px;
+  vertical-align: 2px;
+}
+.food-menu__desc { font-size: 12px; line-height: 1.9; color: var(--ink-light); margin-top: 4px; }
+.food-menu__note { grid-column: 1 / -1; font-size: 12px; color: var(--ink-light); }
+
+/* =============================================
+   CAFE SECTION (side-by-side)
+   ============================================= */
+.cafe-wrap {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  min-height: clamp(380px,50vw,640px);
+}
+.cafe-text {
+  background: var(--ink);
+  color: var(--cream);
+  padding: clamp(48px,7vw,100px) clamp(32px,5vw,72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cafe-text .sec-body { color: rgba(245,238,220,.65); }
+.cafe-img {
+  overflow: hidden;
+}
+.cafe-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+.cafe-img:hover img { transform: scale(1.03); }
+
+/* =============================================
+   CAN BEER (dark section)
+   ============================================= */
+.can-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px,7vw,100px);
+  align-items: center;
+}
+.can-img {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  position: relative;
+}
+.can-img img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+}
+.can-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  border: 1px solid var(--gold);
+  color: var(--gold);
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 9px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+/* =============================================
+   BREWERY EQUIPMENT (horizontal film strip)
+   ============================================= */
+.equipment-strip {
+  overflow-x: auto;
+  display: flex;
+  gap: 3px;
+  padding-bottom: 0;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.equipment-strip::-webkit-scrollbar { display: none; }
+.equipment-strip img {
+  height: clamp(180px,22vw,280px);
+  width: auto;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+/* =============================================
+   SHOP INFO
+   ============================================= */
+.shop-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(40px,6vw,80px);
+}
+.shop-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+.shop-table th,
+.shop-table td {
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(22,18,14,.1);
+  vertical-align: top;
+  text-align: left;
+}
+.shop-table th {
+  font-family: var(--f-label);
+  font-size: 10px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-dark);   /* 生成り地では --gold だと薄すぎて読めない */
+  width: 100px;
+  font-weight: 200;
+  white-space: nowrap;
+  padding-right: 20px;
+}
+.shop-table td {
+  line-height: 1.9;
+  color: var(--ink-mid);
+}
+.shop-map {
+  border-radius: 1px;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+.shop-map iframe {
+  width: 100%; height: 100%;
+  border: 0;
+  filter: saturate(0.6) contrast(1.1);
+}
+
+/* =============================================
+   SNS / INSTAGRAM BANNER
+   ============================================= */
+.sns-strip {
+  padding: clamp(60px,8vw,100px) var(--pad-x);
+  text-align: center;
+  background: var(--cream-dark);
+}
+.sns-strip__en {
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  margin-bottom: 12px;
+}
+.sns-strip__title {
+  font-size: clamp(22px,3vw,36px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-bottom: 28px;
+}
+.sns-strip a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 28px;
+  background: var(--ink);
+  color: var(--cream);
+  font-family: var(--f-label);
+  font-weight: 200;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  transition: background 0.2s, gap 0.3s;
+}
+.sns-strip a:hover { background: var(--indigo); gap: 14px; }
+
+/* =============================================
+   AGE GATE (luxury brand standard)
+   ============================================= */
+#age-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 99998;
+  background: var(--panel-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+#age-gate.dismissed {
+  opacity: 0;
+  pointer-events: none;
+}
+.agegate__logo {
+  height: 48px;
+  filter: brightness(0) invert(1);
+  opacity: 0.65;
+  margin-bottom: 40px;
+}
+.agegate__rule {
+  width: 1px; height: 40px;
+  background: rgba(212,168,67,.35);
+  margin: 0 auto 40px;
+}
+.agegate__title {
+  font-family: var(--f-display);
+  font-style: italic;
+  font-size: clamp(20px,3vw,32px);
+  color: var(--cream);
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-bottom: 12px;
+}
+.agegate__sub {
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: rgba(245,238,220,.38);
+  text-align: center;
+  margin-bottom: 48px;
+}
+.agegate__btns {
+  display: flex;
+  gap: 16px;
+}
+.agegate__btn {
+  font-family: var(--f-label);
+  font-weight: 100;
+  font-size: 10px;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  padding: 14px 32px;
+  border: 1px solid rgba(212,168,67,.35);
+  color: var(--cream);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+.agegate__btn:hover { background: rgba(212,168,67,.1); border-color: var(--gold); }
+.agegate__btn--no { opacity: 0.4; }
+.agegate__legal {
+  margin-top: 36px;
+  font-size: 11px;
+  color: rgba(245,238,220,.2);
+  text-align: center;
+  line-height: 1.7;
+  max-width: 320px;
+}
+
+/* =============================================
+   FOOTER
+   ============================================= */
+.site-footer {
+  background: var(--panel-dark);
+  color: rgba(245,238,220,.45);
+  padding: clamp(48px,6vw,80px) var(--pad-x) clamp(28px,4vw,48px);
+  border-top: 1px solid rgba(212,168,67,.18);
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+.footer-logo img {
+  height: 36px;
+  filter: brightness(0) invert(1);
+  opacity: 0.45;
+  margin-bottom: 14px;
+}
+.footer-logo p {
+  font-size: 12px;
+  line-height: 1.9;
+}
+.footer-links h4 {
+  font-family: var(--f-label);
+  font-size: 9px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 16px;
+  font-weight: 200;
+}
+.footer-links ul { list-style: none; }
+.footer-links li { margin-bottom: 10px; }
+.footer-links a {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+.footer-links a:hover { opacity: 1; }
+.footer-legal {
+  font-size: 11px;
+  line-height: 1.9;
+  color: rgba(245,238,220,.4);
+  margin-bottom: 20px;
+}
+.footer-bottom {
+  border-top: 1px solid rgba(245,238,220,.1);
+  padding-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+/* =============================================
+   SPACE（店内ギャラリー）
+   ============================================= */
+.space-head { max-width: 720px; margin-bottom: clamp(40px,5vw,64px); }
+.space-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: clamp(110px, 13vw, 190px);
+  grid-auto-flow: dense;
+  gap: 6px;
+  margin-bottom: var(--gap-lg);
+}
+.sg { position: relative; margin: 0; overflow: hidden; background: var(--cream-dark); }
+.sg img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s cubic-bezier(0.22,1,0.36,1); }
+.sg:hover img { transform: scale(1.04); }
+.sg figcaption {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 28px 14px 10px;
+  background: linear-gradient(transparent, rgba(22,18,14,.62));
+  color: var(--cream);
+  font-size: 12px;
+  letter-spacing: .1em;
+}
+.sg-hall     { grid-column: span 4; grid-row: span 2; }
+.sg-aisle    { grid-column: span 2; grid-row: span 3; }
+.sg-table    { grid-column: span 2; }
+.sg-glass    { grid-column: span 2; }
+.sg-bar      { grid-column: span 3; grid-row: span 2; }
+.sg-evening  { grid-column: span 3; grid-row: span 2; }
+.sg-exterior { grid-column: span 6; grid-row: span 2; }
+.sg-exterior img { object-position: center 60%; }
+.boat-feature .story-img { aspect-ratio: 16 / 10; }
+.boat-title { font-size: clamp(26px,3.6vw,46px); }
+
+/* =============================================
+   PRODUCTS（缶ビールの一覧）
+   ============================================= */
+.can-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: clamp(20px,3vw,40px);
+  margin-top: clamp(48px,6vw,80px);
+}
+.can-item img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; margin-bottom: 18px; }
+.can-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--cream);
+  margin-bottom: 8px;
+}
+.can-item h3 span {
+  display: block;
+  font-family: var(--f-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--gold);
+  letter-spacing: .04em;
+}
+.can-item p { font-size: 13px; line-height: 1.9; color: rgba(245,238,220,.65); }
+.can-item .can-spec { font-family: var(--f-sans); font-size: 12px; color: var(--gold-light); margin-top: 6px; letter-spacing: .1em; }
+.can-note { margin-top: 32px; font-size: 12px; color: rgba(245,238,220,.5); }
+
+/* =============================================
+   FAQ
+   ============================================= */
+.faq-list { max-width: 820px; border-top: 1px solid rgba(22,18,14,.14); }
+.faq-list details { border-bottom: 1px solid rgba(22,18,14,.14); }
+.faq-list summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 22px 40px 22px 0;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: .04em;
+}
+.faq-list summary::-webkit-details-marker { display: none; }
+.faq-list summary::after {
+  content: '+';
+  position: absolute;
+  right: 6px; top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--f-display);
+  font-size: 22px;
+  color: var(--gold-dark);
+  transition: transform .3s ease;
+}
+.faq-list details[open] summary::after { transform: translateY(-50%) rotate(45deg); }
+.faq-list details p { padding: 0 40px 24px 0; font-size: 14px; line-height: 2; color: var(--ink-light); }
+.faq-list a { border-bottom: 1px solid var(--gold); }
+
+/* =============================================
+   MOBILE
+   ============================================= */
+@media (max-width: 860px) {
+  .site-nav, .lang-switch { display: none; }
+  .hamburger { display: flex; }
+  .site-nav.is-open {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    position: fixed;
+    top: 64px; left: 0; right: 0;
+    background: rgba(245,238,220,.98);
+    padding: 8px var(--pad-x) 24px;
+    box-shadow: 0 12px 24px rgba(22,18,14,.08);
+    font-size: 13px;
+  }
+  .site-nav.is-open a {
+    color: var(--ink);
+    opacity: 1;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(22,18,14,.08);
+  }
+  .site-nav.is-open a::after { display: none; }
+  .story-grid, .story-grid.flip { grid-template-columns: 1fr; direction: ltr; gap: 32px; }
+  .story-img { aspect-ratio: 3/2; }
+  .beer-intro { grid-template-columns: 1fr; }
+  .beers { grid-template-columns: 1fr; gap: 24px; }
+  .food-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .fi1,.fi2,.fi3 { grid-column: auto; aspect-ratio: 4/3; }
+  .fi1 { grid-column: 1 / -1; }
+  .food-menu { grid-template-columns: 1fr; gap: 32px; }
+  .cafe-wrap { grid-template-columns: 1fr; }
+  .cafe-img { aspect-ratio: 4/3; }
+  .can-inner { grid-template-columns: 1fr; }
+  .can-list { grid-template-columns: 1fr; }
+  .space-grid { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 34vw; }
+  .sg-hall, .sg-exterior, .sg-bar, .sg-evening { grid-column: span 2; grid-row: span 1; }
+  .sg-aisle { grid-column: span 1; grid-row: span 2; }
+  .sg-table, .sg-glass { grid-column: span 1; grid-row: span 1; }
+  .shop-wrap { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+  .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
+}
+@media (max-width: 480px) {
+  .food-grid { grid-template-columns: 1fr; }
+  .beers { grid-template-columns: 1fr; }
+}
+
+/* 動きを減らす設定の人には、オープニング・流れる帯・視差を止める */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  #opening { display: none !important; }
+  .js .reveal, .js .reveal-line > span { opacity: 1; transform: none; transition: none; }
+  .marquee-strip__track { animation: none; }
+  .hero__scroll::after { animation: none; }
+  .beer-card, .story-img img, .food-item img, .cafe-img img { transition: none; }
+}
+  </style>
+</head>
+<body>
+
+<!-- ===================================================
+     AGE GATE — luxury standard overlay
+     =================================================== -->
+<div id="age-gate" role="dialog" aria-modal="true" aria-label="年齢確認">
+  <img class="agegate__logo" src="img/logo-white.png" width="493" height="67" alt="千石蔵ビアホール" decoding="async">
+  <div class="agegate__rule"></div>
+  <p class="agegate__title">Are you of legal drinking age?</p>
+  <p class="agegate__sub">20歳以上の方のみご入場いただけます</p>
+  <div class="agegate__btns">
+    <button class="agegate__btn" id="agegate-yes">はい — Yes</button>
+    <button class="agegate__btn agegate__btn--no" id="agegate-no">いいえ — No</button>
+  </div>
+  <p class="agegate__legal">このサイトはアルコール飲料に関するコンテンツを含みます。<br>飲酒は20歳になってから。</p>
+</div>
+
+
+<!-- ===================================================
+     OPENING ANIMATION
+     =================================================== -->
+<div id="opening" role="presentation" aria-hidden="true">
+  <canvas id="sg-canvas"></canvas>
+
+  <div class="sp sp1"></div>
+  <div class="sp sp2"></div>
+  <div class="sp sp3"></div>
+  <div class="sp sp4"></div>
+  <div class="sp sp5"></div>
+  <div class="sp sp6"></div>
+
+  <!-- 写真のカードが次々に飛び込む（中身は JS で作る） -->
+  <div class="op-collage" id="op-collage"></div>
+  <!-- 中央の帯に言葉を畳みかける -->
+  <div class="op-band" id="op-band"><span id="op-flash"></span></div>
+  <canvas id="op-fx"></canvas>
+
+  <div id="op-text">
+    <p class="op-tag">Sengokura Beer Hall / Mashike, Hokkaido</p>
+    <p class="op-main"><span class="op-char">彩</span><span class="op-char">り</span></p>
+    <p class="op-sub">ここにしかない、彩り</p>
+    <div class="op-rule"></div>
+  </div>
+  <p class="op-skip">Tap to skip</p>
+</div>
+
+
+<!-- ===================================================
+     HEADER
+     =================================================== -->
+<header class="site-header" id="site-header">
+  <a href="#top" class="site-header__logo">
+    <img src="img/logo-white.png" width="493" height="67"
+         alt="千石蔵ビアホール"
+         onerror="this.style.display='none'; document.querySelector('.site-header__logo-fallback').style.display='block'" decoding="async">
+    <span class="site-header__logo-fallback" style="display:none">千石蔵ビアホール</span>
+  </a>
+
+  <nav class="site-nav" id="site-nav">
+    <a href="#story">ストーリー</a>
+    <a href="#space">店内</a>
+    <a href="#beers">ビール</a>
+    <a href="#food">フード</a>
+    <a href="#can">缶ビール</a>
+    <a href="#shop">店舗情報</a>
+    <a href="#faq">よくある質問</a>
+    <!-- 英語版ができるまで言語切替は出さない
+    <div class="lang-switch">
+      <span class="active">JP</span>
+      <span>EN</span>
+    </div>
+    -->
+  </nav>
+
+  <button type="button" class="hamburger" id="hamburger" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+
+<!-- ===================================================
+     HERO
+     =================================================== -->
+<section class="hero">
+  <div class="hero__img-wrap" id="hero-parallax">
+    <picture>
+      <!-- 縦長のスマホでは横長写真が缶のアップになるので、縦構図のネオンを使う -->
+      <source media="(max-width: 860px) and (orientation: portrait)" srcset="img/neon.jpg">
+      <img class="hero__img"
+           src="img/hero-beer.jpg" width="2400" height="1351"
+           alt="灯りのともる千石蔵ビアホールと3種のクラフトビール缶"
+           fetchpriority="high" decoding="async">
+    </picture>
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    <!-- 見出しの1番は店名と所在地。キャッチコピーは見た目の主役だが h1 にはしない -->
+    <h1 class="hero__en reveal">千石蔵ビアホール ─ 北海道増毛町・国稀酒造のクラフトビール醸造所</h1>
+    <div class="hero__gold-rule reveal delay-1"></div>
+    <p class="hero__jp reveal delay-2">
+      増毛のまちに、<br>いつも良い&ldquo;乾杯&rdquo;を
+    </p>
+    <a class="hero__cta reveal delay-3" href="#story">ストーリーを読む</a>
+  </div>
+  <div class="hero__scroll">Scroll</div>
+</section>
+
+
+<!-- ===================================================
+     PHILOSOPHY STRIP
+     =================================================== -->
+<div class="philosophy">
+  <div class="inner">
+    <blockquote class="philosophy__quote reveal">
+      「国に稀な良いお酒」<br>
+      その名に誇り高き由来を持ち、<br>
+      明治15年の創業以来、<em>品質の高い酒造り</em>に向き合い続けてきた私たち。
+    </blockquote>
+    <div class="philosophy__rule reveal delay-1"></div>
+    <p class="philosophy__en reveal delay-2">Est. 1882 — Kunimare Shuzo, Mashike</p>
+  </div>
+</div>
+
+
+<!-- ===================================================
+     STORY
+     =================================================== -->
+<section class="section section--cream" id="story">
+  <div class="inner">
+
+    <!-- block 1 -->
+    <div class="story-grid" style="margin-bottom: var(--gap-lg)">
+      <div class="story-img reveal">
+        <img src="img/neon.jpg" width="1012" height="1800" alt="KUNIMARE Brewery のネオンサイン" loading="lazy" decoding="async">
+        <span class="story-img__caption">Craft Beer / Mashike</span>
+      </div>
+      <div class="story-text reveal delay-1">
+        <p class="sec-label">Our Story</p>
+        <h2 class="sec-title">なぜ、<br>クラフトビールなのか。</h2>
+        <p class="sec-body">
+          「良いお酒」がたくさんある今の時代に、果たすべき役割は何だろうか。
+          創業144年目にして初めて挑戦したクラフトビール醸造は、その一つの答えでした。<br><br>
+          地元・増毛に人が集うことのできる場所を作り、
+          増毛の風土にインスパイアされたビールで乾杯する。
+          暮らしが豊かになり、増毛のことがもっと好きになる——
+          そんなビアホールを目指しています。
+        </p>
+      </div>
+    </div>
+
+    <!-- block 2 -->
+    <div class="story-grid flip">
+      <div class="story-img reveal">
+        <img src="img/space-tanks.jpg" alt="千石蔵ビアホールのカウンター奥に並ぶクラフトビールの醸造タンク" width="1400" height="788" loading="lazy" decoding="async">
+        <span class="story-img__caption">Brewery Tanks</span>
+      </div>
+      <div class="story-text reveal delay-1">
+        <p class="sec-label">Brewery</p>
+        <h2 class="sec-title">増毛の風土が、<br>ビールになる。</h2>
+        <p class="sec-body">
+          暑寒別岳に代表される山々に囲まれた、自然豊かな増毛の地。
+          海のイメージが強いですが、実は独特の気候と水が育む、素材の宝庫です。<br><br>
+          国稀ブリュワリーは、その風土をそのままビールの中に閉じ込めることを目指しています。
+          老舗酒蔵の技術と、クラフトビールの自由な発想が出会う場所、それが千石蔵です。
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================================================
+     SPACE（店内・建物の歴史）
+     文言の出典：Notion「千石蔵 歴史ガイド（スタッフ用）」。建築年は不明なので「築100年以上といわれる」以上は書かない
+     =================================================== -->
+<section class="section section--light" id="space">
+  <div class="inner">
+    <div class="space-head reveal">
+      <p class="sec-label">The Space</p>
+      <h2 class="sec-title">築100年を超える<br>ニシンの石蔵で、乾杯を。</h2>
+      <p class="sec-body">
+        千石蔵は、ニシン漁の漁具を保管するために建てられた石造りの蔵です。
+        建築年は分かっていませんが、築100年以上といわれ、
+        「千石場所」と呼ばれるほどニシンが獲れた増毛の漁業を、裏側から支えてきました。<br><br>
+        2026年5月、その蔵が醸造所を併設した千石蔵ビアホールとして生まれ変わりました。
+        高い梁の下、新しい木と経年の木の色の対比、石壁の向こうに並ぶ醸造タンク。
+        つくりたてのクラフトビールを、この空間ごと味わってください。
+      </p>
+    </div>
+
+    <div class="space-grid reveal">
+      <figure class="sg sg-hall">
+        <img src="img/space-hall.jpg" alt="高い木の梁が続く千石蔵ビアホールの店内。長いテーブル席とカウンター" width="1600" height="900" loading="lazy" decoding="async">
+        <figcaption>梁の続く店内</figcaption>
+      </figure>
+      <figure class="sg sg-aisle">
+        <img src="img/space-aisle.jpg" alt="千石蔵ビアホールの通路とテーブル席を奥から見通した縦の眺め" width="787" height="1400" loading="lazy" decoding="async">
+        <figcaption>奥まで続く席</figcaption>
+      </figure>
+      <figure class="sg sg-table">
+        <img src="img/space-table.jpg" alt="テーブルに灯る真鍮のランプと、奥に並ぶ醸造タンク" width="1400" height="788" loading="lazy" decoding="async">
+        <figcaption>灯りのテーブル</figcaption>
+      </figure>
+      <figure class="sg sg-glass">
+        <img src="img/space-glasses.jpg" alt="ロゴ入りのオリジナルビアグラス2種" width="1200" height="900" loading="lazy" decoding="async">
+        <figcaption>オリジナルグラス</figcaption>
+      </figure>
+      <figure class="sg sg-bar">
+        <img src="img/space-bar.jpg" alt="ロゴの暖簾が掛かる千石蔵ビアホールのカウンターと客席" width="1400" height="788" loading="lazy" decoding="async">
+        <figcaption>カウンター</figcaption>
+      </figure>
+      <figure class="sg sg-evening">
+        <img src="img/space-evening.jpg" alt="夕方の営業中の千石蔵ビアホール。梁の下でくつろぐお客様" width="1400" height="788" loading="lazy" decoding="async">
+        <figcaption>営業中のひととき</figcaption>
+      </figure>
+      <figure class="sg sg-exterior">
+        <img src="img/space-exterior.jpg" alt="青空の下の千石蔵の外観。石積みの壁の蔵" width="1400" height="788" loading="lazy" decoding="async">
+        <figcaption>千石蔵の外観</figcaption>
+      </figure>
+    </div>
+
+    <!-- 展示のニシン船 -->
+    <div class="story-grid boat-feature">
+      <div class="story-img reveal">
+        <img src="img/space-herring-boat.jpg" alt="千石蔵ビアホールの店内に展示されている木造のニシン船「枠船」" width="1600" height="900" loading="lazy" decoding="async">
+        <span class="story-img__caption">Herring Boat</span>
+      </div>
+      <div class="story-text reveal delay-1">
+        <p class="sec-label">Exhibition</p>
+        <h3 class="sec-title boat-title">蔵の中の、<br>木造ニシン船。</h3>
+        <p class="sec-body">
+          店内には、網を揚げてニシンを陸へ上げた木造の「枠船（わくぶね）」を展示しています。
+          ニシンが途絶える直前の船で、実際の漁では数回しか使われなかったため、
+          船首・船尾の化粧板の彩色が鮮やかに残っています。<br><br>
+          網やモッコ、櫂などの漁具と、最盛期の増毛港の写真もあわせて展示。
+          見学用の階段から、船の中まで間近にご覧いただけます。
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     MARQUEE TICKER
+     =================================================== -->
+<div class="marquee-strip" aria-hidden="true">
+  <div class="marquee-strip__track">
+    <span class="marquee-strip__item">千石蔵ビアホール</span>
+    <span class="marquee-strip__item">Craft Beer</span>
+    <span class="marquee-strip__item">増毛・北海道</span>
+    <span class="marquee-strip__item">国稀酒造</span>
+    <span class="marquee-strip__item">Mashike Hokkaido</span>
+    <span class="marquee-strip__item">ここにしかない彩り</span>
+    <span class="marquee-strip__item">Since 1882</span>
+    <span class="marquee-strip__item">千石蔵ビアホール</span>
+    <span class="marquee-strip__item">Craft Beer</span>
+    <span class="marquee-strip__item">増毛・北海道</span>
+    <span class="marquee-strip__item">国稀酒造</span>
+    <span class="marquee-strip__item">Mashike Hokkaido</span>
+    <span class="marquee-strip__item">ここにしかない彩り</span>
+    <span class="marquee-strip__item">Since 1882</span>
+  </div>
+</div>
+
+<!-- ===================================================
+     BEER SECTION
+     =================================================== -->
+<section class="section section--dark" id="beers">
+  <div class="inner">
+
+    <div class="beer-intro">
+      <div class="reveal">
+        <p class="sec-label">Craft Beer</p>
+        <h2 class="sec-title">3種の<br>クラフトビール</h2>
+        <p class="sec-body">
+          国稀の日本酒と同じ、暑寒別岳の伏流水。
+          その水で、千石蔵の醸造所が個性豊かな3種のクラフトビールを仕込んでいます。
+          味わい、コク、喉越し、香り——全てがオリジナルです。
+        </p>
+      </div>
+      <div class="beer-intro__img reveal delay-1">
+        <img src="img/cans.jpg" width="1800" height="1013" alt="3種のクラフトビール缶" loading="lazy" decoding="async">
+      </div>
+    </div>
+
+    <div class="beers">
+      <!-- Dortmunder -->
+      <div class="beer-card reveal">
+        <p class="beer-card__number">No. 01</p>
+        <p class="beer-card__abv">6.0% ABV</p>
+        <div class="beer-card__label">
+          <img src="img/label-dortmunder.png" width="378" height="378" alt="ドルトムンダー ラベル" decoding="async" loading="lazy">
+        </div>
+        <div class="beer-card__rule"></div>
+        <p class="beer-card__style">Dortmunder</p>
+        <h3 class="beer-card__name">ドルトムンダー</h3>
+        <p class="beer-card__desc">
+          王道のプレミアムラガー。爽快さは新しい時代への清々しさ、モルトのコクと厚みは積み重ねた歴史のよう。何度飲んでも心地よく、信頼できる千石蔵のフラッグシップ。
+        </p>
+        <p class="beer-card__price">¥800<small>Glass</small></p>
+      </div>
+      <!-- IPA -->
+      <div class="beer-card reveal delay-1">
+        <p class="beer-card__number">No. 02</p>
+        <p class="beer-card__abv">6.0% ABV</p>
+        <div class="beer-card__label">
+          <img src="img/label-ipa.png" width="378" height="378" alt="アメリカンIPA ラベル" decoding="async" loading="lazy">
+        </div>
+        <div class="beer-card__rule"></div>
+        <p class="beer-card__style">American IPA</p>
+        <h3 class="beer-card__name">アメリカンIPA</h3>
+        <p class="beer-card__desc">
+          7種のホップが織り成す層。果実のような香りが温度とともに移ろい、飲み進めるたびに表情を変える、奥深いクラフトビール。
+        </p>
+        <p class="beer-card__price">¥800<small>Glass</small></p>
+      </div>
+      <!-- Cream Ale -->
+      <div class="beer-card reveal delay-2">
+        <p class="beer-card__number">No. 03</p>
+        <p class="beer-card__abv">4.5% ABV</p>
+        <div class="beer-card__label">
+          <img src="img/label-cream-ale.png" width="378" height="378" alt="クリームエール ラベル" decoding="async" loading="lazy">
+        </div>
+        <div class="beer-card__rule"></div>
+        <p class="beer-card__style">Cream Ale</p>
+        <h3 class="beer-card__name">クリームエール</h3>
+        <p class="beer-card__desc">
+          暑寒別岳が育んだ軟水が、素材そのものの美しさを残します。焼きたてのビスケットの香ばしさ、青リンゴのような爽やかさ、穀物本来の素朴な甘み。
+        </p>
+        <p class="beer-card__price">¥800<small>Glass</small></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================================================
+     IMAGE BREAK — NEON
+     =================================================== -->
+<div class="img-break">
+  <img src="img/neon.jpg" width="1012" height="1800" alt="国稀ブルワリー ネオン" decoding="async" loading="lazy">
+  <div class="img-break__overlay">
+    <p class="img-break__text reveal">Kunimare Brewery &mdash; Mashike, Hokkaido</p>
+  </div>
+</div>
+
+
+<!-- ===================================================
+     FOOD SECTION
+     =================================================== -->
+<section class="section section--cream" id="food">
+  <div class="inner">
+    <div class="food-header">
+      <div class="reveal">
+        <p class="sec-label">Food Menu</p>
+        <h2 class="sec-title">増毛産食材の<br>フードメニュー</h2>
+        <p class="sec-body">
+          クラフトビールと合わせるフードには、増毛の素材をふんだんに。
+          増毛産たらの「特製フィッシュ&amp;チップス」、
+          増毛町でつくられたたらこを使ったパスタとタラモサラダ。
+          ここでしか出会えない味覚を、ぜひ。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="food-grid reveal" style="padding: 0 3px;">
+    <div class="food-item fi1">
+      <img src="img/fish-and-chips.jpg" width="1400" height="933" alt="特製フィッシュ&チップス" loading="lazy" decoding="async">
+      <div class="food-item__cap">特製フィッシュ&amp;チップス ── 増毛産たら</div>
+    </div>
+    <div class="food-item fi2">
+      <img src="img/tarako-pasta.jpg" width="1400" height="933" alt="たっぷりたらこのパスタ" loading="lazy" decoding="async">
+      <div class="food-item__cap">たっぷりたらこのパスタ</div>
+    </div>
+    <div class="food-item fi3">
+      <img src="img/taramo-salad.jpg" width="1400" height="933" alt="タラモサラダ" loading="lazy" decoding="async">
+      <div class="food-item__cap">タラモサラダ</div>
+    </div>
+  </div>
+
+  <!-- 5/10版グランドメニューより。メニューや価格を変えたらここも直す -->
+  <div class="inner">
+    <div class="food-menu reveal">
+      <div>
+        <p class="food-menu__cat">Fried</p>
+        <ul>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">特製フィッシュ&amp;チップス<span class="food-menu__local">増毛産</span></span><span class="food-menu__price">¥1,400</span></div>
+            <p class="food-menu__desc">増毛産のたらを使った、ビールとのベストペアリング。数の子タルタル・たらこマヨ・ケチャップの3種のディップで。</p>
+          </li>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">ライスコロッケ5種盛り</span><span class="food-menu__price">¥950</span></div>
+            <p class="food-menu__desc">イカスミ・パエリア・トリュフ風味・トマトバジル・チーズ</p>
+          </li>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">オニオンリング</span><span class="food-menu__price">¥900</span></div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="food-menu__cat">Pasta &amp; Salad</p>
+        <ul>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">たっぷりたらこのパスタ<span class="food-menu__local">増毛産</span></span><span class="food-menu__price">¥1,300</span></div>
+            <p class="food-menu__desc">増毛町でつくられたたらこを、たっぷりと使った贅沢なパスタ。</p>
+          </li>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">タラモサラダ<span class="food-menu__local">増毛産</span></span><span class="food-menu__price">¥900</span></div>
+            <p class="food-menu__desc">増毛町のたらことポテトサラダを合わせた、こだわりのサラダ。</p>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <p class="food-menu__cat">Amuse</p>
+        <ul>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">ベスト・ビア・ミックスナッツ</span><span class="food-menu__price">¥500</span></div>
+            <p class="food-menu__desc">老舗ナッツ専門店「小島屋」の厳選ナッツを、ピリ辛の麻辣風味で。</p>
+          </li>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">ピリ辛ガリペパ枝豆</span><span class="food-menu__price">¥450</span></div>
+          </li>
+          <li>
+            <div class="food-menu__row"><span class="food-menu__name">ミックスナッツ</span><span class="food-menu__price">¥400</span></div>
+          </li>
+        </ul>
+      </div>
+      <p class="food-menu__note">価格は税込です。仕入れの状況により、メニューや価格が変わることがあります。</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     CAFE SECTION
+     =================================================== -->
+<section id="cafe" style="background:var(--white)">
+  <div class="cafe-wrap">
+    <div class="cafe-text reveal">
+      <p class="sec-label" style="color:var(--gold)">Café</p>
+      <h2 class="sec-title" style="color:var(--cream)">ひと休みも、<br>千石蔵で。</h2>
+      <p class="sec-body">
+        運転があるのでお酒は飲めない、増毛の滞在時間にひと息つきたい——
+        そんなニーズにもお応えするカフェメニューをご用意しています。<br><br>
+        ソフトクリーム「バニラ」「ショコラ」「ミックス」、
+        深煎りコーヒーなど。
+        1品からどうぞお気軽に。
+      </p>
+    </div>
+    <div class="cafe-img">
+      <img src="img/brewery-1885.jpg" width="1400" height="1050" alt="千石蔵 内観" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     EQUIPMENT STRIP
+     =================================================== -->
+<div style="background:var(--ink); padding: var(--gap-sm) 0">
+  <div class="inner" style="margin-bottom:20px">
+    <p class="sec-label" style="color:var(--gold)" >Brewery</p>
+    <p style="font-family:var(--f-label);font-weight:200;font-size:11px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(245,238,220,.4)">
+      Inside the Brewery
+    </p>
+  </div>
+  <div class="equipment-strip">
+    <img src="img/brewery-1819.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1886.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1887.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1888.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1889.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1890.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1891.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+    <img src="img/brewery-1883.jpg" width="1400" height="1050" alt="醸造設備" loading="lazy" decoding="async">
+  </div>
+</div>
+
+
+<!-- ===================================================
+     CAN BEER
+     =================================================== -->
+<section class="section section--ink" id="can">
+  <div class="inner">
+    <div class="can-inner">
+      <div class="reveal">
+        <span class="can-badge">Limited · Local Only</span>
+        <p class="sec-label" style="color:var(--gold)">Products</p>
+        <h2 class="sec-title" style="color:var(--cream)">
+          ここでしか買えない、<br>&ldquo;幻の缶ビール&rdquo;
+        </h2>
+        <p class="sec-body">
+          私たちが醸造したクラフトビールを、そのまま詰め込んだ缶ビール。
+          まだ千石蔵ビアホールでしかお買い求めいただくことができません——
+          増毛町でしか飲めない、いわば"幻のビール"です。<br><br>
+          増毛まで来ていただくのは少し大変ですが、
+          その価値を感じていただける味わいとおもてなしでお待ちしています。
+        </p>
+      </div>
+      <div class="can-img reveal delay-1">
+        <img src="img/can-3set.jpg" alt="千石蔵ビアホールの店内を背に並ぶ国稀クラフトビール350ml缶3種" width="1600" height="901" loading="lazy" decoding="async">
+      </div>
+    </div>
+
+    <!-- 缶の商品一覧（価格は未確定なので載せない。決まったら .can-item に足す） -->
+    <ul class="can-list">
+      <li class="can-item reveal">
+        <img src="img/can-dortmunder.jpg" alt="国稀クラフトビール ドルトムンダー 350ml缶" width="1000" height="563" loading="lazy" decoding="async">
+        <h3>ドルトムンダー<span>Dortmunder</span></h3>
+        <p>王道のプレミアムラガー。千石蔵のフラッグシップ。</p>
+        <p class="can-spec">350ml ／ Alc.6%</p>
+      </li>
+      <li class="can-item reveal delay-1">
+        <img src="img/can-american-ipa.jpg" alt="国稀クラフトビール アメリカンIPA 350ml缶" width="1000" height="563" loading="lazy" decoding="async">
+        <h3>アメリカンIPA<span>American IPA</span></h3>
+        <p>7種のホップが織り成す、果実のような香り。</p>
+        <p class="can-spec">350ml ／ Alc.6%</p>
+      </li>
+      <li class="can-item reveal delay-2">
+        <img src="img/can-cream-ale.jpg" alt="国稀クラフトビール クリームエール 350ml缶" width="1000" height="563" loading="lazy" decoding="async">
+        <h3>クリームエール<span>Cream Ale</span></h3>
+        <p>暑寒別岳の軟水が生きる、なめらかな一杯。</p>
+        <p class="can-spec">350ml ／ Alc.4.5%</p>
+      </li>
+    </ul>
+    <p class="can-note reveal">3種そろえた3本セットもご用意しています。缶ビールなどのお土産は現金のみのお取り扱いです。</p>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     SHOP INFO
+     =================================================== -->
+<section class="section section--cream" id="shop">
+  <div class="inner">
+    <p class="sec-label reveal">Shop Information</p>
+    <h2 class="sec-title reveal delay-1">店舗情報</h2>
+    <div class="shop-wrap" style="margin-top: var(--gap-sm)">
+      <table class="shop-table reveal">
+        <tr>
+          <th>Address</th>
+          <td>〒077-0203<br>北海道増毛郡増毛町稲葉海岸町53番地<br>
+              <small style="color:var(--ink-light)">※国稀酒造から徒歩約3分</small></td>
+        </tr>
+        <tr>
+          <th>Hours</th>
+          <td>
+            木・金・土　11:00 – 21:00（L.O. 20:30）<br>
+            日・月　11:00 – 17:00（L.O. 16:30）
+          </td>
+        </tr>
+        <tr>
+          <th>Closed</th>
+          <td>火曜日・水曜日</td>
+        </tr>
+        <tr>
+          <th>Parking</th>
+          <td>店舗前道路を挟んだ向かいに約20台<br>
+              <small style="color:var(--ink-light)">満車時→国稀ショップ周辺 / 旧増毛駅前</small></td>
+        </tr>
+        <tr>
+          <th>Payment</th>
+          <td>各種キャッシュレス決済可<br>
+              <small style="color:var(--ink-light)">※缶ビール等お土産は現金のみ</small></td>
+        </tr>
+        <tr>
+          <th>Tel</th>
+          <td>団体・ご宴会のご予約、お問い合わせ<br>
+              <a href="tel:0164531050" style="border-bottom:1px solid var(--gold)">0164-53-1050</a>（国稀酒造）<br>
+              <small style="color:var(--ink-light)">※店舗に固定電話はございません</small></td>
+        </tr>
+      </table>
+      <div class="shop-map reveal delay-1">
+        <!-- 住所で検索した地図。ピンの位置がずれていたら Google マップの「共有→地図を埋め込む」の URL に差し替える -->
+        <iframe
+          src="https://www.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E5%A2%97%E6%AF%9B%E9%83%A1%E5%A2%97%E6%AF%9B%E7%94%BA%E7%A8%B2%E8%91%89%E6%B5%B7%E5%B2%B8%E7%94%BA53&z=17&output=embed"
+          allowfullscreen loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="千石蔵ビアホール Googleマップ">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     FAQ（head の構造化データ FAQPage と同じ文にしておくこと）
+     =================================================== -->
+<section class="section section--cream faq" id="faq">
+  <div class="inner">
+    <p class="sec-label reveal">FAQ</p>
+    <h2 class="sec-title reveal delay-1">よくある質問</h2>
+    <div class="faq-list reveal">
+      <details>
+        <summary>営業時間と定休日を教えてください。</summary>
+        <p>木・金・土曜日は11:00〜21:00（ラストオーダー20:30）、日・月曜日は11:00〜17:00（ラストオーダー16:30）です。火曜日・水曜日は定休日です。</p>
+      </details>
+      <details>
+        <summary>駐車場はありますか？</summary>
+        <p>店舗前の道路を挟んだ向かいに約20台分あります。満車のときは、国稀ショップ周辺や旧増毛駅前の駐車場をご利用ください。</p>
+      </details>
+      <details>
+        <summary>予約はできますか？</summary>
+        <p>団体・ご宴会のご予約は、国稀酒造（<a href="tel:0164531050">0164-53-1050</a>）で承ります。店舗には固定電話がありません。</p>
+      </details>
+      <details>
+        <summary>支払い方法は何が使えますか？</summary>
+        <p>各種キャッシュレス決済をご利用いただけます。缶ビールなどのお土産は現金のみのお取り扱いです。</p>
+      </details>
+      <details>
+        <summary>お酒を飲まない人や運転する人も楽しめますか？</summary>
+        <p>ソフトクリーム（バニラ・ショコラ・ミックス）やコーヒー、烏龍茶・コーラ・ジンジャーエールなどのソフトドリンクをご用意しています。お車を運転される方への酒類の提供はいたしません。</p>
+      </details>
+      <details>
+        <summary>缶ビールはどこで買えますか？</summary>
+        <p>現在、千石蔵ビアホールの店頭でのみ販売しています。</p>
+      </details>
+      <details>
+        <summary>店内のニシン船は見学できますか？</summary>
+        <p>はい。蔵の中に、網を揚げてニシンを陸へ上げた木造の枠船（わくぶね）を展示しています。見学用の階段から、船の中や化粧板を間近にご覧いただけます。</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     INSTAGRAM
+     =================================================== -->
+<div class="sns-strip">
+  <p class="sns-strip__en reveal">Follow Us</p>
+  <p class="sns-strip__title reveal delay-1">最新情報はInstagramから</p>
+  <a href="https://www.instagram.com/sengokura_bierhall/" target="_blank" rel="noopener" class="reveal delay-2">
+    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"
+         fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="2" y="2" width="20" height="20" rx="5"/>
+      <circle cx="12" cy="12" r="4"/>
+      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+    </svg>
+    @sengokura_bierhall
+  </a>
+</div>
+
+
+</main>
+
+<!-- ===================================================
+     FOOTER
+     =================================================== -->
+<footer class="site-footer">
+  <div class="inner">
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <img src="img/logo-white.png" width="493" height="67"
+             alt="千石蔵ビアホール"
+             onerror="this.style.display='none'" decoding="async">
+        <p>千石蔵ビアホール<br>〒077-0203<br>北海道増毛郡増毛町稲葉海岸町53番地<br>
+           ご予約・お問い合わせ：<a href="tel:0164531050">0164-53-1050</a>（国稀酒造）<br>国稀酒造株式会社 直営</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#story">ストーリー</a></li>
+          <li><a href="#space">店内・ニシン船</a></li>
+          <li><a href="#beers">ビール</a></li>
+          <li><a href="#food">フード</a></li>
+          <li><a href="#can">缶ビール</a></li>
+          <li><a href="#shop">店舗情報</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Links</h4>
+        <ul>
+          <li><a href="https://kunimare.co.jp" target="_blank" rel="noopener">国稀酒造 公式サイト</a></li>
+          <li><a href="https://www.instagram.com/sengokura_bierhall/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="mailto:ozawa-kent@kunimare.com">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">
+      飲酒は20歳になってから。飲酒運転は法律で禁止されています。<br>
+      妊娠中や授乳期の飲酒は、胎児・乳児の発育に悪影響を与えるおそれがあります。
+    </p>
+    <div class="footer-bottom">
+      <p>© 2026 千石蔵ビアホール / 国稀酒造株式会社</p>
+      <p>Powered by Kunimare Brewery</p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ===================================================
+     JAVASCRIPT
+     =================================================== -->
+<script>
+'use strict';
+
+/* ── OPENING ANIMATION ───────────────────────────── */
+(function() {
+  const canvas  = document.getElementById('sg-canvas');
+  const ctx     = canvas.getContext('2d');
+  const opening = document.getElementById('opening');
+  const opText  = document.getElementById('op-text');
+
+  // 同じタブで2回目以降・動きを減らす設定のときは出さない
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let seen = false;
+  try { seen = !!sessionStorage.getItem('openingSeen'); } catch (e) {}
+  if (reduced || seen) { opening.style.display = 'none'; return; }
+  try { sessionStorage.setItem('openingSeen', '1'); } catch (e) {}
+
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+  // Retina でにじまないように実ピクセルで描く
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  canvas.width  = W * dpr;
+  canvas.height = H * dpr;
+  ctx.scale(dpr, dpr);
+  // 金の輪と泡を描く前面のキャンバス
+  const fxCanvas = document.getElementById('op-fx');
+  const fx = fxCanvas.getContext('2d');
+  fxCanvas.width  = W * dpr;
+  fxCanvas.height = H * dpr;
+  fx.scale(dpr, dpr);
+
+  // 写真カード（ラベル・価格は5/10版メニューと合わせる）
+  const TILES = [
+    ['exterior.jpg',       '千石蔵', 'SENGOKURA'],
+    ['beers.jpg',          '3種のクラフトビール', ''],
+    ['hall-1.jpg',         'ビアホール', 'BEER HALL'],
+    ['fish-and-chips.jpg', '特製フィッシュ&チップス', '¥1,400'],
+    ['dortmunder.jpg',     'ドルトムンダー', '6%'],
+    ['neon.jpg',           '国稀ブルワリー', 'BREWERY'],
+    ['tarako-pasta.jpg',   'たっぷりたらこのパスタ', '¥1,300'],
+    ['ipa.jpg',            'アメリカンIPA', '6%'],
+    ['hall-2.jpg',         '梁の下で乾杯', ''],
+    ['taramo-salad.jpg',   'タラモサラダ', '¥900'],
+    ['cream-ale.jpg',      'クリームエール', '4.5%'],
+    ['onion-rings.jpg',    'オニオンリング', '¥900'],
+    ['cans.jpg',           '缶ビール3種', 'ここだけ'],
+    ['croquettes.jpg',     'ライスコロッケ5種盛り', '¥950'],
+    ['hall-3.jpg',         'カウンター', 'BAR'],
+    ['edamame.jpg',        'ピリ辛ガリペパ枝豆', '¥450'],
+    ['nuts.jpg',           'ベスト・ビア・ミックスナッツ', '¥500'],
+  ];
+  // 帯に畳みかける言葉（en は欧文書体、gold は金色）
+  const WORDS = [
+    ['増毛'], ['明治15年'], ['国稀酒造'], ['千石蔵'],
+    ['Dortmunder', 'en'], ['American IPA', 'en'], ['Cream Ale', 'en'],
+    ['増毛産'], ['乾杯', 'gold'],
+  ];
+
+  // 画面を格子に割り、ずらしながらカードを置く
+  const collage = document.getElementById('op-collage');
+  const tileEls = (function buildTiles() {
+    const cols = W < 700 ? 3 : 5;
+    const rows = Math.ceil(TILES.length / cols);
+    const cw = W / cols, ch = H / rows;
+    const tw = Math.min(cw * 1.18, 300);
+    const cells = [];
+    for (let i = 0; i < cols * rows; i++) cells.push(i);
+    cells.sort(() => Math.random() - 0.5);
+    return TILES.map(([src, label, sub], i) => {
+      const c = cells[i];
+      const fig = document.createElement('figure');
+      fig.className = 'op-tile';
+      fig.style.width = tw + 'px';
+      fig.style.left = ((c % cols) + 0.5 + (Math.random() - 0.5) * 0.3) * cw + 'px';
+      fig.style.top  = (Math.floor(c / cols) + 0.5 + (Math.random() - 0.5) * 0.3) * ch + 'px';
+      fig.style.setProperty('--r', ((Math.random() - 0.5) * 12).toFixed(1) + 'deg');
+      fig.innerHTML = `<img src="img/op/${src}" alt=""><figcaption>${label}${sub ? `<b>${sub}</b>` : ''}</figcaption>`;
+      collage.appendChild(fig);
+      return fig;
+    });
+  })();
+  const band  = document.getElementById('op-band');
+  const flash = document.getElementById('op-flash');
+
+  // Seigaiha params
+  const r = Math.min(W, H) / 13;
+  const cx = W / 2, cy = H / 2;
+
+  // 缶の3色（黄・朱・緑）。青海波の波頭と、缶ラベルのような円紋に使う
+  const CAN = [
+    { top: [246, 214, 92],  bottom: [228, 160, 40] },   // 黄
+    { top: [244, 168, 72],  bottom: [222, 70, 58] },    // 朱
+    { top: [190, 218, 120], bottom: [62, 150, 104] },   // 緑
+  ];
+  const INDIGO = [30, 58, 122];
+  const mix = (a, b, t) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+  const rgba = (c, a) => `rgba(${c[0]},${c[1]},${c[2]},${a.toFixed(3)})`;
+  const clamp01 = v => v < 0 ? 0 : v > 1 ? 1 : v;
+  const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
+  const easeOutBack  = t => { const c = 1.9; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2); };
+
+  // 円紋の置き場所（文字のある中央を避ける）。縦長と横長で変える
+  const portrait = H > W;
+  const Rm = Math.min(W, H) * (portrait ? 0.34 : 0.3);
+  const medallions = (portrait
+    ? [[0.12, 0.17], [0.92, 0.5], [0.2, 0.86]]
+    : [[0.16, 0.24], [0.86, 0.36], [0.32, 0.9]]
+  ).map(([fx, fy], i) => ({ x: W * fx, y: H * fy, c: CAN[i], start: 1150 + i * 170 }));
+
+  // Build scale list (with center-distance for reveal order)
+  function buildScales() {
+    const cols = Math.ceil(W / (2*r)) + 4;
+    const rows = Math.ceil(H / r) + 4;
+    const list = [];
+    for (let row = -2; row < rows; row++) {
+      for (let col = -2; col < cols; col++) {
+        const x = col * 2*r + (row % 2 === 0 ? 0 : r);
+        const y = row * r;
+        list.push({ x, y, row, dist: Math.hypot(x - cx, y - cy) });
+      }
+    }
+    return list;
+  }
+
+  // 1枚の鱗。fill が null なら生成り地に藍の線、色があれば缶ラベルのように色地に白い線
+  function drawScale(x, y, a, pop, line, fill) {
+    const rr = r * pop;
+    ctx.beginPath();
+    ctx.arc(x, y, rr, Math.PI, 0, true);
+    ctx.closePath();
+    ctx.fillStyle = fill || '#f5eedc';
+    ctx.fill();
+
+    const radii  = [0.99, 0.70, 0.44, 0.23];
+    const alphas = fill ? [0.9, 0.75, 0.6, 0.45] : [0.42, 0.3, 0.21, 0.13];
+    radii.forEach((ri, i) => {
+      ctx.beginPath();
+      ctx.arc(x, y, rr * ri, Math.PI, 0, true);
+      ctx.strokeStyle = rgba(line, a * alphas[i]);
+      ctx.lineWidth = i === 0 ? 1.6 : 1;
+      ctx.stroke();
+    });
+  }
+
+  const scales   = buildScales();
+  const byRow    = [...scales].sort((a, b) => a.row - b.row);
+  const maxDist  = Math.max(...scales.map(s => s.dist));
+  const WHITE    = [255, 252, 240];
+
+  // 時間割（ms）
+  const T_GRID  = 1050;   // 青海波が画面いっぱいに広がるまで
+  const T_TILES = 1450;   // 写真カードが飛び込み始める
+  const TILE_GAP = 80;    //   1枚ごとの間隔
+  const T_BAND  = 2350;   // 帯が走り、言葉を畳みかける
+  const WORD_GAP = 175;   //   1語ごとの間隔
+  const T_TEXT  = T_BAND + WORDS.length * WORD_GAP + 120;   // 彩り が出る
+  const T_RING  = T_TEXT + 50;    // 金の輪がはじける
+  const T_EXIT  = T_TEXT + 2300;  // 暖簾が上がる
+
+  // 立ちのぼる金の泡
+  const bubbles = Array.from({ length: Math.round((W * H) / 14000) + 24 }, () => ({
+    x: Math.random() * W,
+    y: H + Math.random() * H * 0.6,
+    rad: 1.5 + Math.random() * 4.5,
+    speed: 0.35 + Math.random() * 0.9,
+    phase: Math.random() * Math.PI * 2,
+    delay: T_TEXT - 300 + Math.random() * 900,
+  }));
+
+  let t0 = null, finished = false, raf = 0;
+
+  function render(t) {
+    ctx.clearRect(0, 0, W, H);
+
+    // ① 青海波：中心から広がる。波頭は缶の3色に光り、通り過ぎると藍に落ち着く
+    const front = maxDist * easeOutCubic(clamp01(t / T_GRID)) + r;
+    const band  = r * 3.2;
+    for (const s of byRow) {
+      if (s.dist >= front) continue;
+      const behind = front - s.dist;
+      const a   = clamp01(behind / r);
+      const pop = 0.55 + 0.45 * easeOutBack(clamp01(behind / (r * 1.6)));
+
+      // 缶の円紋に入っている鱗は色地にする
+      let fill = null;
+      for (const m of medallions) {
+        const g = clamp01((t - m.start) / 650);
+        if (g <= 0) continue;
+        const d = Math.hypot(s.x - m.x, s.y - m.y);
+        if (d < Rm * easeOutCubic(g)) {
+          const ty = clamp01((s.y - (m.y - Rm)) / (2 * Rm));
+          fill = rgba(mix(m.c.top, m.c.bottom, ty), 0.92);
+          break;
+        }
+      }
+
+      let line;
+      if (fill) {
+        line = WHITE;
+      } else if (behind < band && t < T_GRID + 300) {
+        const k = behind / band;                            // 0=波頭 → 1=藍
+        const can = CAN[(((s.row + Math.round(s.x / r)) % 3) + 3) % 3].bottom;   // 画面外の負の行でも0〜2に収める
+        line = mix(can, INDIGO, k * k);
+      } else {
+        line = INDIGO;
+      }
+      drawScale(s.x, s.y, fill ? 1 : a, pop, line, fill);
+    }
+
+    // ②③ は写真と帯より手前のキャンバスに描く
+    fx.clearRect(0, 0, W, H);
+
+    // ② 金の輪が2重にはじける
+    [0, 220].forEach(off => {
+      const p = clamp01((t - T_RING - off) / 1100);
+      if (p <= 0 || p >= 1) return;
+      fx.beginPath();
+      fx.arc(cx, cy, maxDist * easeOutCubic(p), 0, Math.PI * 2);
+      fx.strokeStyle = rgba([212, 168, 67], (1 - p) * 0.75);
+      fx.lineWidth = 2 + (1 - p) * 10;
+      fx.stroke();
+    });
+
+    // ③ 泡がゆらぎながら立ちのぼる
+    for (const b of bubbles) {
+      const bt = t - b.delay;
+      if (bt <= 0) continue;
+      const y = b.y - bt * b.speed * 0.45;
+      if (y < -10) continue;
+      const x = b.x + Math.sin(bt / 380 + b.phase) * 7;
+      const fade = clamp01(bt / 300) * clamp01(y / (H * 0.25));
+      fx.beginPath();
+      fx.arc(x, y, b.rad, 0, Math.PI * 2);
+      fx.fillStyle = rgba([255, 244, 214], 0.55 * fade);
+      fx.fill();
+      fx.strokeStyle = rgba([212, 168, 67], 0.9 * fade);
+      fx.lineWidth = 1;
+      fx.stroke();
+    }
+  }
+
+  let textShown = false, splashed = false, tilesShown = 0, wordShown = -1;
+  function tick(ts) {
+    if (t0 === null) {
+      t0 = ts;
+      // 万一止まっても、ページが生成りの幕に閉じ込められないようにする
+      setTimeout(finish, T_EXIT + 2500);
+    }
+    const t = ts - t0;
+    try { render(t); } catch (e) { finish(); return; }
+
+    if (!splashed && t > T_GRID + 100) {
+      splashed = true;
+      document.querySelectorAll('.sp').forEach((el, i) => {
+        setTimeout(() => {
+          el.style.animation = `sp-burst 0.7s cubic-bezier(0.34,1.56,0.64,1) forwards`;
+        }, i * 90);
+      });
+    }
+    // 写真カードを1枚ずつ飛び込ませる
+    while (tilesShown < tileEls.length && t > T_TILES + tilesShown * TILE_GAP) {
+      tileEls[tilesShown++].classList.add('in');
+    }
+    // 帯を走らせ、言葉を1語ずつ叩きつける
+    if (t > T_BAND) band.classList.add('on');
+    const wi = Math.floor((t - T_BAND) / WORD_GAP);
+    if (wi >= 0 && wi < WORDS.length && wi !== wordShown) {
+      wordShown = wi;
+      const [word, cls] = WORDS[wi];
+      flash.textContent = word;
+      flash.className = cls || '';
+      flash.animate(
+        [{ opacity: 0, transform: 'scale(1.35)', filter: 'blur(4px)' },
+         { opacity: 1, transform: 'scale(1)',    filter: 'blur(0)' }],
+        { duration: 150, easing: 'cubic-bezier(0.2,0.9,0.3,1)' });
+    }
+    if (!textShown && t > T_TEXT) {
+      textShown = true;
+      flash.textContent = '';
+      opening.classList.add('settle');   // 写真を少し沈めて、彩り を主役にする
+      opText.style.opacity = '1';
+      requestAnimationFrame(() => opText.classList.add('show'));
+    }
+    if (t > T_EXIT) { finish(); return; }
+    raf = requestAnimationFrame(tick);
+  }
+
+  // 退場（タップ・キーでも飛ばせる）
+  function finish() {
+    if (finished) return;
+    finished = true;
+    cancelAnimationFrame(raf);
+    opening.classList.add('done');
+    setTimeout(() => { opening.style.display = 'none'; }, 1000);
+  }
+  opening.addEventListener('click', () => { if (t0 !== null) finish(); });
+  document.addEventListener('keydown', function onKey() {
+    if (t0 === null) return;   // 年齢確認の Enter で飛ばさない
+    document.removeEventListener('keydown', onKey);
+    finish();
+  });
+
+  // 年齢確認が出ている間は始めない（裏で終わってしまうため）。「はい」を押したら始める
+  const start = () => setTimeout(() => { raf = requestAnimationFrame(tick); }, 250);
+  let verified = false;
+  try { verified = !!sessionStorage.getItem('ageVerified'); } catch (e) {}
+  if (verified) start();
+  else document.addEventListener('agegate:passed', start, { once: true });
+})();
+
+
+/* ── SCROLL REVEAL (IntersectionObserver) ─────────── */
+(function() {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal, .reveal-line').forEach(el => io.observe(el));
+})();
+
+
+/* ── HERO PARALLAX ───────────────────────────────── */
+(function() {
+  const wrap = document.getElementById('hero-parallax');
+  if (!wrap || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        const y = window.scrollY;
+        // ヒーローが見えている間だけ動かす
+        if (y < window.innerHeight) wrap.style.transform = `translateY(${y * 0.28}px)`;
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+})();
+
+
+/* ── HEADER SCROLL STATE ─────────────────────────── */
+(function() {
+  const header = document.getElementById('site-header');
+  let ticking = false;
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        header.classList.toggle('scrolled', window.scrollY > 60);
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, { passive: true });
+})();
+
+
+/* ── HAMBURGER MENU ──────────────────────────────── */
+(function() {
+  const btn = document.getElementById('hamburger');
+  const nav = document.getElementById('site-nav');
+  const header = document.getElementById('site-header');
+  if (!btn || !nav) return;
+  function setOpen(open) {
+    nav.classList.toggle('is-open', open);
+    header.classList.toggle('menu-open', open);
+    btn.setAttribute('aria-expanded', String(open));
+    btn.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+  }
+  btn.addEventListener('click', () => setOpen(!nav.classList.contains('is-open')));
+  // 項目を選んだら閉じる・Esc で閉じる・PC幅に戻ったら閉じる
+  nav.addEventListener('click', e => { if (e.target.closest('a')) setOpen(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setOpen(false); });
+  window.matchMedia('(min-width: 861px)').addEventListener('change', e => { if (e.matches) setOpen(false); });
+})();
+// ページ内リンクのなめらかなスクロールは CSS の scroll-behavior に任せる
+
+
+/* ── AGE GATE ────────────────────────────────────── */
+(function() {
+  const gate = document.getElementById('age-gate');
+  const yes  = document.getElementById('agegate-yes');
+  const no   = document.getElementById('agegate-no');
+  if (!gate) return;
+  // check session storage (don't re-show on refresh)
+  let verified = false;
+  try { verified = !!sessionStorage.getItem('ageVerified'); } catch (e) {}
+  if (verified) {
+    gate.style.display = 'none';
+    return;
+  }
+  // 確認中は裏のページを動かさない
+  document.documentElement.style.overflow = 'hidden';
+  yes.focus();
+  function dismiss() {
+    gate.classList.add('dismissed');
+    document.documentElement.style.overflow = '';
+    setTimeout(() => { gate.style.display = 'none'; }, 750);
+    try { sessionStorage.setItem('ageVerified', '1'); } catch (e) {}
+    document.dispatchEvent(new Event('agegate:passed'));
+  }
+  yes.addEventListener('click', dismiss);
+  no.addEventListener('click', () => {
+    window.location.href = 'https://www.kunimare.co.jp/';
+  });
+})();
+
+
+/* ── EQUIPMENT STRIP — AUTO SCROLL ──────────────── */
+(function() {
+  const strip = document.querySelector('.equipment-strip');
+  if (!strip || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  // 触っている間・画面外にある間は止める。手で動かした位置から再開する
+  let hovering = false, touching = false, visible = false, resumeAt = 0;
+  strip.addEventListener('mouseenter', () => { hovering = true; });
+  strip.addEventListener('mouseleave', () => { hovering = false; });
+  strip.addEventListener('pointerdown', () => { touching = true; });
+  window.addEventListener('pointerup', () => { if (touching) { touching = false; resumeAt = performance.now() + 2500; } });
+  strip.addEventListener('wheel', () => { resumeAt = performance.now() + 2500; }, { passive: true });
+  new IntersectionObserver(es => { visible = es[0].isIntersecting; }).observe(strip);
+  let pos = 0;
+  function autoScroll(now) {
+    if (visible && !hovering && !touching && now > resumeAt) {
+      if (Math.abs(strip.scrollLeft - pos) > 2) pos = strip.scrollLeft;
+      pos += 0.6;
+      if (pos >= strip.scrollWidth - strip.clientWidth) pos = 0;
+      strip.scrollLeft = pos;
+    }
+    requestAnimationFrame(autoScroll);
+  }
+  setTimeout(() => requestAnimationFrame(autoScroll), 4000); // ページ表示4秒後から開始
+})();
+
+</script>
+</body>
+</html>
