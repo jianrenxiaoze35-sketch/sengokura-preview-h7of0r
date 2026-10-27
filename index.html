@@ -1395,7 +1395,7 @@ h1.hero__en {
 }
 .footer-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
   gap: 40px;
   margin-bottom: 48px;
 }
@@ -1534,6 +1534,18 @@ h1.hero__en {
 .around-item h3 { font-size: 19px; font-weight: 700; letter-spacing: .06em; margin-bottom: 10px; }
 .around-item p:not(.around-tag) { font-size: 13px; line-height: 2; color: var(--ink-light); }
 .around-note { margin-top: 20px; font-size: 12px; color: var(--ink-light); }
+
+/* 読みもの（下層ページへの入口） */
+.guides-list { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-top: var(--gap-sm); }
+.guides-list a { display: block; height: 100%; background: var(--cream-dark); transition: background .3s; }
+.guides-list a:hover { background: #e6dabb; }
+.guides-list img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.guides-list h3 { font-size: 16px; font-weight: 700; letter-spacing: .05em; padding: 14px 16px 4px; line-height: 1.6; }
+.guides-list p { font-size: 12.5px; line-height: 1.9; color: var(--ink-light); padding: 0 16px 18px; }
+.more-link { display: inline-block; margin-top: 18px; font-size: 13px; letter-spacing: .08em; border-bottom: 1px solid var(--gold); padding-bottom: 2px; }
+.more-link::after { content: " →"; }
+@media (max-width: 900px) { .guides-list { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .guides-list { grid-template-columns: 1fr; } }
 
 /* =============================================
    SPACE（店内ギャラリー）
@@ -1764,6 +1776,7 @@ h1.hero__en {
     <a href="#food">フード</a>
     <a href="#can">缶ビール</a>
     <a href="#shop">店舗情報</a>
+    <a href="#guides">読みもの</a>
     <a href="#faq">よくある質問</a>
     <!-- 英語版ができるまで言語切替は出さない
     <div class="lang-switch">
@@ -1922,6 +1935,7 @@ h1.hero__en {
           国稀ブリュワリーは、その風土をそのままビールの中に閉じ込めることを目指しています。
           老舗酒蔵の技術と、クラフトビールの自由な発想が出会う場所、それが千石蔵です。
         </p>
+        <a class="more-link" href="brewery/">醸造所とビールができるまで</a>
       </div>
     </div>
 
@@ -2003,6 +2017,7 @@ h1.hero__en {
           網やモッコ、櫂などの漁具と、最盛期の増毛港の写真もあわせて展示。
           見学用の階段から、船の中まで間近にご覧いただけます。
         </p>
+        <a class="more-link" href="history/">石蔵とニシン船の歴史を読む</a>
       </div>
     </div>
   </div>
@@ -2052,6 +2067,7 @@ h1.hero__en {
           その水で、千石蔵の醸造所が個性豊かな3種のクラフトビールを仕込んでいます。
           味わい、コク、喉越し、香り——全てがオリジナルです。
         </p>
+        <a class="more-link" href="beer/" style="color:var(--gold)">3種の違いと選び方を見る</a>
       </div>
       <div class="beer-intro__img reveal delay-1">
         <img src="img/pour-glass.jpg" width="1500" height="1000" alt="金色のビアサーバーから、泡立つクラフトビールをグラスに注ぐ" loading="lazy" decoding="async">
@@ -2406,6 +2422,36 @@ h1.hero__en {
       </article>
     </div>
     <p class="around-note reveal">※各施設の営業時間・開館期間・料金は、施設に直接ご確認ください。</p>
+    <a class="more-link reveal" href="mashike/">増毛観光とランチの回り方・アクセス</a>
+  </div>
+</section>
+
+
+<!-- ===================================================
+     GUIDES（読みもの）── 検索の入口になる下層ページ。トップは来店の情報、下層は「調べる人」の答え
+     =================================================== -->
+<section class="section section--light" id="guides" aria-labelledby="guides-title">
+  <div class="inner">
+    <p class="sec-label reveal">Read More</p>
+    <h2 id="guides-title" class="sec-title reveal delay-1">千石蔵を、もっと知る。</h2>
+    <ul class="guides-list reveal">
+      <li><a href="beer/">
+        <img src="img/can-3set.jpg" width="1600" height="901" alt="国稀クラフトビール350ml缶3種" loading="lazy" decoding="async">
+        <h3>クラフトビール3種の違いと選び方</h3>
+        <p>最初の一杯のおすすめ、ラガーとエールの違い、お土産の缶ビール。</p></a></li>
+      <li><a href="brewery/">
+        <img src="img/brewery-1886.jpg" width="1400" height="1050" alt="千石蔵の醸造所の仕込み設備" loading="lazy" decoding="async">
+        <h3>醸造所 ── ビールができるまで</h3>
+        <p>暑寒別岳の伏流水から8つの工程で。品質を守る衛生管理も。</p></a></li>
+      <li><a href="history/">
+        <img src="img/space-herring-boat.jpg" width="1600" height="900" alt="店内に展示している木造のニシン船" loading="lazy" decoding="async">
+        <h3>石蔵と木造ニシン船の歴史</h3>
+        <p>千石場所と呼ばれた増毛のニシン漁、枠船とダルマハギ。</p></a></li>
+      <li><a href="mashike/">
+        <img src="img/space-exterior.jpg" width="1400" height="788" alt="千石蔵の外観" loading="lazy" decoding="async">
+        <h3>増毛観光とランチの回り方</h3>
+        <p>国稀酒造・旧増毛駅・丸一本間家をめぐる例と、アクセス・駐車場。</p></a></li>
+    </ul>
   </div>
 </section>
 
@@ -2503,6 +2549,15 @@ h1.hero__en {
           <li><a href="#shop">店舗情報</a></li>
           <li><a href="#around">増毛のまち歩き</a></li>
           <li><a href="#faq">よくある質問</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Read More</h4>
+        <ul>
+          <li><a href="beer/">クラフトビール3種の選び方</a></li>
+          <li><a href="brewery/">醸造所</a></li>
+          <li><a href="history/">石蔵とニシン船の歴史</a></li>
+          <li><a href="mashike/">増毛観光とランチ</a></li>
         </ul>
       </div>
       <div class="footer-links">
