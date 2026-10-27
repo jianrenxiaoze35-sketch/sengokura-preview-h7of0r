@@ -1544,6 +1544,8 @@ h1.hero__en {
 .guides-list p { font-size: 12.5px; line-height: 1.9; color: var(--ink-light); padding: 0 16px 18px; }
 .more-link { display: inline-block; margin-top: 18px; font-size: 13px; letter-spacing: .08em; border-bottom: 1px solid var(--gold); padding-bottom: 2px; }
 .more-link::after { content: " →"; }
+.guides-sub { margin-top: var(--gap-sm); font-size: 15px; font-weight: 700; letter-spacing: .1em; }
+.guides-sub + .guides-list { margin-top: 14px; }
 @media (max-width: 900px) { .guides-list { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px) { .guides-list { grid-template-columns: 1fr; } }
 
@@ -1867,10 +1869,12 @@ h1.hero__en {
     <p class="intro-tags-title reveal">こんな時に</p>
     <ul class="intro-tags reveal">
       <li><a href="#food">増毛観光のランチに</a></li>
+      <li><a href="course/">札幌から日帰りの増毛観光に</a></li>
       <li><a href="#around">国稀酒造の酒蔵見学のあとに</a></li>
-      <li><a href="#around">旧増毛駅・ふるさと歴史通りの散策に</a></li>
-      <li><a href="#shop">日本海オロロンラインのドライブ途中に</a></li>
-      <li><a href="#can">増毛の地ビールをお土産に</a></li>
+      <li><a href="mashike/">旧増毛駅・ふるさと歴史通りの散策に</a></li>
+      <li><a href="course/">日本海オロロンラインのドライブ途中に</a></li>
+      <li><a href="omiyage/">増毛の地ビールや地酒をお土産に</a></li>
+      <li><a href="season/">味まつり・港まつりの季節に</a></li>
       <li><a href="#space">ニシン漁の歴史と木造船を見に</a></li>
       <li><a href="#cafe">運転の合間にソフトクリームを</a></li>
     </ul>
@@ -2418,11 +2422,11 @@ h1.hero__en {
       <article class="around-item reveal delay-1">
         <p class="around-tag">増毛の味覚</p>
         <h3>甘えびとフルーツの町</h3>
-        <p>増毛は甘えびの水揚げで知られる港町。「日本最北のフルーツ産地」として、さくらんぼやりんごなどの果樹園もあります。千石蔵のフードは、増毛産のたらやたらこを使っています。</p>
+        <p>増毛港では甘エビやタコ、カレイ類が一年を通して水揚げされています。暑寒沢を中心に果樹園が集まり、町は「本格的に果樹栽培している地域としては日本最北」とされています。千石蔵のフードは、増毛産のたらやたらこを使っています。</p>
       </article>
     </div>
     <p class="around-note reveal">※各施設の営業時間・開館期間・料金は、施設に直接ご確認ください。</p>
-    <a class="more-link reveal" href="mashike/">増毛観光とランチの回り方・アクセス</a>
+    <a class="more-link reveal" href="mashike/">増毛町観光ガイドを読む</a>
   </div>
 </section>
 
@@ -2447,10 +2451,25 @@ h1.hero__en {
         <img src="img/space-herring-boat.jpg" width="1600" height="900" alt="店内に展示している木造のニシン船" loading="lazy" decoding="async">
         <h3>石蔵と木造ニシン船の歴史</h3>
         <p>千石場所と呼ばれた増毛のニシン漁、枠船とダルマハギ。</p></a></li>
+    </ul>
+    <p class="guides-sub reveal">増毛町を旅する</p>
+    <ul class="guides-list reveal">
       <li><a href="mashike/">
         <img src="img/space-exterior.jpg" width="1400" height="788" alt="千石蔵の外観" loading="lazy" decoding="async">
-        <h3>増毛観光とランチの回り方</h3>
-        <p>国稀酒造・旧増毛駅・丸一本間家をめぐる例と、アクセス・駐車場。</p></a></li>
+        <h3>増毛町観光ガイド</h3>
+        <p>國稀酒造、旧増毛駅と町並み、雄冬岬の夕日、温泉、果樹園。雨の日・子連れのヒントも。</p></a></li>
+      <li><a href="course/">
+        <img src="img/space-evening.jpg" width="1400" height="788" alt="夕方の千石蔵ビアホール" loading="lazy" decoding="async">
+        <h3>日帰り観光モデルコース</h3>
+        <p>札幌から車で約2時間。酒蔵見学・ランチ・町歩き・夕日。旭川・留萌からのアクセスも。</p></a></li>
+      <li><a href="omiyage/">
+        <img src="img/space-glasses.jpg" width="1200" height="900" alt="千石蔵のオリジナルビアグラス" loading="lazy" decoding="async">
+        <h3>増毛町のお土産</h3>
+        <p>地酒・店頭限定のクラフトビール缶・海産物・フルーツと、買える場所。</p></a></li>
+      <li><a href="season/">
+        <img src="img/space-hall.jpg" width="1600" height="900" alt="梁の続く千石蔵ビアホールの店内" loading="lazy" decoding="async">
+        <h3>四季とイベント</h3>
+        <p>春・秋の味まつり、港まつりの花火、果物、冬の過ごし方。</p></a></li>
     </ul>
   </div>
 </section>
@@ -2557,7 +2576,10 @@ h1.hero__en {
           <li><a href="beer/">クラフトビール3種の選び方</a></li>
           <li><a href="brewery/">醸造所</a></li>
           <li><a href="history/">石蔵とニシン船の歴史</a></li>
-          <li><a href="mashike/">増毛観光とランチ</a></li>
+          <li><a href="mashike/">増毛町観光ガイド</a></li>
+          <li><a href="course/">日帰りモデルコース</a></li>
+          <li><a href="omiyage/">増毛町のお土産</a></li>
+          <li><a href="season/">四季とイベント</a></li>
         </ul>
       </div>
       <div class="footer-links">

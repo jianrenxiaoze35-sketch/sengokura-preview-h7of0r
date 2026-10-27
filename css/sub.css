@@ -47,7 +47,7 @@ button { border: none; background: none; cursor: pointer; font: inherit; color: 
 .menu-open .sub-burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .menu-open .sub-burger span:nth-child(2) { opacity: 0; }
 .menu-open .sub-burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-@media (max-width: 860px) {
+@media (max-width: 1080px) {
   .sub-burger { display: block; }
   .sub-nav {
     display: none; position: absolute; top: 100%; left: 0; right: 0;
